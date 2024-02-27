@@ -2,3 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+.background-image {
+	/* background: url(../../public/background.jpg) */
+	background: url(../../public/background5.jpg);
+	background-attachment: scroll;
+	height: 100vh;
+	background-size: 3440px;
+}
+
+.cover-background {
+	background-position: center center;
+}
+
+.background-exp {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	/* background: url(../../public/background6.jpg) repeat-y; */
+	background: url(../../public/background6.jpg);
+	background-size: 100%;
+}
+
+.background-gradient {
+	background: linear-gradient(99.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+	z-index: -1;
+	background-size: 100%;
+	height: 100vh;
+}
