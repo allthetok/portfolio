@@ -14,7 +14,7 @@ const Intro = () => {
 	const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
 
 	return (
-		<section ref={ref} id='home' className='mb-28 max-w-[50rem] text-center sm:mb-0'>
+		<section ref={ref} id='home' className='mb-28 mt-56 max-w-[50rem] text-center sm:mb-0'>
 			<div className='flex items-center justify-center mt-5'>
 				<Image src='/profile.jpg' alt='Me!'	width='240'	height='240' quality='95' priority={true} className='h-48 w-48 rounded-full object-cover border-[0.35rem] border-white shadow-xl' />
 			</div>

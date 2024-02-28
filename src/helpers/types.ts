@@ -6,4 +6,9 @@ interface TimeLineDtl {
 	details: string
 }
 
-export { type TimeLineDtl }
+interface AboutDtl {
+	heading: string,
+	details: string
+}
+
+export { type TimeLineDtl, type AboutDtl }
