@@ -4,6 +4,7 @@ import { About } from '@/Components/About'
 import { Intro } from '@/Components/Intro'
 import { WorkTime } from '@/Components/WorkTime'
 import { Projects } from '@/Components/Projects'
+import { Email } from '@/Components/Email'
 
 const Home = () => {
 	return (
@@ -12,6 +13,7 @@ const Home = () => {
 			<About />
 			<WorkTime />
 			<Projects />
+			<Email />
 		</main>
 	)
 }
