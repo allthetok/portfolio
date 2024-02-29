@@ -15,7 +15,10 @@ interface ProjectDtl {
 	name: string,
 	description: string,
 	libraries: string[],
-	images: string[]
+	images: string[],
+	link: string,
+	frontend: string,
+	backend: string
 }
 
 export { type TimeLineDtl, type AboutDtl, type ProjectDtl }

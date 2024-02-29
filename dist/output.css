@@ -589,6 +589,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .mb-28 {
   margin-bottom: 7rem;
 }
@@ -659,6 +663,14 @@ video {
 
 .w-48 {
   width: 12rem;
+}
+
+.w-\[1050px\] {
+  width: 1050px;
+}
+
+.w-\[2800px\] {
+  width: 2800px;
 }
 
 .w-\[420px\] {
@@ -739,6 +751,11 @@ video {
 
 .gap-y-4 {
   row-gap: 1rem;
+}
+
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
 }
 
 .text-nowrap {
@@ -861,6 +878,11 @@ video {
   line-height: 2rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -931,6 +953,11 @@ video {
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-slate-100 {
+  --tw-text-opacity: 1;
+  color: rgb(241 245 249 / var(--tw-text-opacity));
 }
 
 .text-slate-300 {
@@ -1007,19 +1034,33 @@ video {
 
 .image-carousel {
   display: block;
-  width: auto;
-  height: 773px;
+  /* width: 1400px; */
+  /* width: 1340px; */
+  /* aspect-ratio: 16 / 9; */
+  /* width: 1600px !important; */
+  /* height: 750px; */
+  /* height: 900px; */
   margin-left: auto;
   margin-right: auto;
 }
 
-@media (max-width: 1200px) {
-  .image-carousel {
-    display: block;
-    max-width: 50%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+/* @media (max-width: 1200px) {
+	.image-carousel {
+		display: block;
+		max-width: 50%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+} */
+
+.carousel-width {
+  width: 1050px;
+}
+
+@media (max-width: 2000px) {
+  .carousel-width {
+    width: 750px;
   }
 }
 

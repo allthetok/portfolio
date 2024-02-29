@@ -63,21 +63,30 @@ const skillsData: string[] = ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', '
 const projects: ProjectDtl[] = [
 	{
 		name: 'GamesAtlas',
-		description: 'Games Server',
-		images: ['/GA1.JPG', '/GA2.JPG', '/GA3.JPG', '/GA4.JPG', '/GA5.JPG', '/GA6.JPG', '/GA7.JPG', '/GA8.JPG', '/GA9.JPG', '/GA10.JPG', '/GA11.JPG', '/GA12.JPG', '/GA13.JPG', '/GA14.JPG', '/GA15.JPG', '/GA16.JPG', '/GA17.JPG', '/GA18.JPG', '/GA19.JPG', '/GA20.JPG', '/GA21.JPG', '/GA22.JPG', '/GA23.JPG', '/GA24.JPG', '/GA25.JPG', '/GA26.JPG', '/GA27.JPG', 'GA28.JPG', 'GA29.JPG'],
-		libraries: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
+		description: "I'm a passionate software engineer with over 5 years of experience in the field. I thrive on turning ideas into reality through elegant and efficient code. My journey in software development has led me through various projects, each one teaching me new skills and pushing the boundaries of what's possible. In my 5 years in the industry, I've honed my skills in [mention specific technologies or areas you specialize in, e.g., full-stack development, front-end frameworks like Angular, back-end with Node.js, etc.]. I've had the pleasure of working on diverse projects, from developing scalable web applications to optimizing database performance. Each project has been a learning experience, refining my problem-solving abilities and attention to detail.",
+		images: ['/GA1.JPG', '/GA2.JPG', '/GA3.JPG', '/GA4.JPG', '/GA5.JPG', '/GA6.JPG', '/GA7.JPG', '/GA8.JPG', '/GA9.JPG', '/GA10.JPG', '/GA11.JPG', '/GA12.JPG', '/GA13.JPG', '/GA14.JPG', '/GA15.JPG', '/GA16.JPG', '/GA17.JPG', '/GA19.JPG', '/GA20.JPG', '/GA21.JPG', '/GA22.JPG', '/GA23.JPG'],
+		libraries: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React'],
+		link: 'https://at.games-atlas.xyz/',
+		frontend: 'https://github.com/allthetok/Gamesatlasfe',
+		backend: 'https://github.com/allthetok/GamesAtlas'
 	},
 	{
 		name: 'GamesAtlas',
-		description: 'Games Server',
-		images: ['/GA1.JPG', '/GA2.JPG', '/GA3.JPG', '/GA4.JPG', '/GA5.JPG', '/GA6.JPG', '/GA7.JPG', '/GA8.JPG', '/GA9.JPG', '/GA10.JPG', '/GA11.JPG', '/GA12.JPG', '/GA13.JPG', '/GA14.JPG', '/GA15.JPG', '/GA16.JPG', '/GA17.JPG', '/GA18.JPG', '/GA19.JPG', '/GA20.JPG', '/GA21.JPG', '/GA22.JPG', '/GA23.JPG', '/GA24.JPG', '/GA25.JPG', '/GA26.JPG', '/GA27.JPG', 'GA28.JPG', 'GA29.JPG'],
-		libraries: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
+		description: "I'm a passionate software engineer with over 5 years of experience in the field. I thrive on turning ideas into reality through elegant and efficient code. My journey in software development has led me through various projects, each one teaching me new skills and pushing the boundaries of what's possible. In my 5 years in the industry, I've honed my skills in [mention specific technologies or areas you specialize in, e.g., full-stack development, front-end frameworks like Angular, back-end with Node.js, etc.]. I've had the pleasure of working on diverse projects, from developing scalable web applications to optimizing database performance. Each project has been a learning experience, refining my problem-solving abilities and attention to detail.",
+		images: ['/GA1.JPG', '/GA2.JPG', '/GA3.JPG', '/GA4.JPG', '/GA5.JPG', '/GA6.JPG', '/GA7.JPG', '/GA8.JPG', '/GA9.JPG', '/GA10.JPG', '/GA11.JPG', '/GA12.JPG', '/GA13.JPG', '/GA14.JPG', '/GA15.JPG', '/GA16.JPG', '/GA17.JPG', '/GA19.JPG', '/GA20.JPG', '/GA21.JPG', '/GA22.JPG', '/GA23.JPG'],
+		libraries: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React'],
+		link: 'https://at.games-atlas.xyz/',
+		frontend: 'https://github.com/allthetok/Gamesatlasfe',
+		backend: 'https://github.com/allthetok/GamesAtlas'
 	},
 	{
 		name: 'GamesAtlas',
-		description: 'Games Server',
-		images: ['/GA1.JPG', '/GA2.JPG', '/GA3.JPG', '/GA4.JPG', '/GA5.JPG', '/GA6.JPG', '/GA7.JPG', '/GA8.JPG', '/GA9.JPG', '/GA10.JPG', '/GA11.JPG', '/GA12.JPG', '/GA13.JPG', '/GA14.JPG', '/GA15.JPG', '/GA16.JPG', '/GA17.JPG', '/GA18.JPG', '/GA19.JPG', '/GA20.JPG', '/GA21.JPG', '/GA22.JPG', '/GA23.JPG', '/GA24.JPG', '/GA25.JPG', '/GA26.JPG', '/GA27.JPG', 'GA28.JPG', 'GA29.JPG'],
-		libraries: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
+		description: "I'm a passionate software engineer with over 5 years of experience in the field. I thrive on turning ideas into reality through elegant and efficient code. My journey in software development has led me through various projects, each one teaching me new skills and pushing the boundaries of what's possible. In my 5 years in the industry, I've honed my skills in [mention specific technologies or areas you specialize in, e.g., full-stack development, front-end frameworks like Angular, back-end with Node.js, etc.]. I've had the pleasure of working on diverse projects, from developing scalable web applications to optimizing database performance. Each project has been a learning experience, refining my problem-solving abilities and attention to detail.",
+		images: ['/GA1.JPG', '/GA2.JPG', '/GA3.JPG', '/GA4.JPG', '/GA5.JPG', '/GA6.JPG', '/GA7.JPG', '/GA8.JPG', '/GA9.JPG', '/GA10.JPG', '/GA11.JPG', '/GA12.JPG', '/GA13.JPG', '/GA14.JPG', '/GA15.JPG', '/GA16.JPG', '/GA17.JPG', '/GA19.JPG', '/GA20.JPG', '/GA21.JPG', '/GA22.JPG', '/GA23.JPG'],
+		libraries: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React'],
+		link: 'https://at.games-atlas.xyz/',
+		frontend: 'https://github.com/allthetok/Gamesatlasfe',
+		backend: 'https://github.com/allthetok/GamesAtlas'
 	}
 ]
 
