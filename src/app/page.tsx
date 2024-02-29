@@ -3,6 +3,7 @@ import React from 'react'
 import { About } from '@/Components/About'
 import { Intro } from '@/Components/Intro'
 import { WorkTime } from '@/Components/WorkTime'
+import { Projects } from '@/Components/Projects'
 
 const Home = () => {
 	return (
@@ -10,6 +11,7 @@ const Home = () => {
 			<Intro />
 			<About />
 			<WorkTime />
+			<Projects />
 		</main>
 	)
 }

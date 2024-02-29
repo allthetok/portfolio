@@ -11,4 +11,11 @@ interface AboutDtl {
 	details: string
 }
 
-export { type TimeLineDtl, type AboutDtl }
+interface ProjectDtl {
+	name: string,
+	description: string,
+	libraries: string[],
+	images: string[]
+}
+
+export { type TimeLineDtl, type AboutDtl, type ProjectDtl }
