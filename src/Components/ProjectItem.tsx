@@ -11,7 +11,7 @@ type ProjectItemProps = {
 
 const ProjectItem = ({ indProj }: ProjectItemProps) => {
 	return (
-		<div className='flex flex-row justify-center mb-64 gap-x-10'>
+		<div className='flex 2xl:flex-row mx-auto flex-col justify-center mb-24 gap-x-10'>
 			{/* <Carousel NextIcon={<ArrowForwardIcon/>} PrevIcon={<ArrowBackIcon/>} stopAutoPlayOnHover={true} interval={10000} animation={'fade'} className='carousel-width'>
 				{indProj.images.map((screenshot: string, index: number) => (
 					<img key={index} className='image-carousel border border-white rounded-3xl' src={screenshot} alt='Project Screenshot' />

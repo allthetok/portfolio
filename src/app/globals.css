@@ -91,7 +91,7 @@
 	flex-direction: column;
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1921px) {
 	.nav-flex {
 		flex-direction: row;
 	}
@@ -101,7 +101,7 @@
 	top: 3.75px;
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1921px) {
 	.nav-top {
 		top: 40%;
 	}

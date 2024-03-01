@@ -651,6 +651,10 @@ video {
   margin-left: 1rem;
 }
 
+.mr-0 {
+  margin-right: 0px;
+}
+
 .mr-\[-10rem\] {
   margin-right: -10rem;
 }
@@ -693,6 +697,46 @@ video {
 
 .mt-\[34rem\] {
   margin-top: 34rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.ml-32 {
+  margin-left: 8rem;
+}
+
+.ml-40 {
+  margin-left: 10rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .inline-block {
@@ -789,6 +833,26 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[1920px\] {
+  width: 1920px;
+}
+
+.w-\[1860px\] {
+  width: 1860px;
+}
+
+.w-\[1760px\] {
+  width: 1760px;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .min-w-\[60rem\] {
@@ -1298,7 +1362,7 @@ video {
   flex-direction: column;
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1921px) {
   .nav-flex {
     flex-direction: row;
   }
@@ -1308,7 +1372,7 @@ video {
   top: 3.75px;
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1921px) {
   .nav-top {
     top: 40%;
   }
@@ -1433,6 +1497,12 @@ video {
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:flex-row {
+    flex-direction: row;
   }
 }
 
