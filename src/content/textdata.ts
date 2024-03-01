@@ -90,4 +90,27 @@ const projects: ProjectDtl[] = [
 	}
 ]
 
-export { timelineData, aboutData, skillsData, projects }
+const links = [
+	{
+		name: 'Home',
+		hash: '#home'
+	},
+	{
+		name: 'Personal',
+		hash: '#about'
+	},
+	{
+		name: 'Work',
+		hash: '#work'
+	},
+	{
+		name: 'Projects',
+		hash: '#projects'
+	},
+	{
+		name: 'Contact',
+		hash: '#contact'
+	},
+]
+
+export { timelineData, aboutData, skillsData, projects, links }

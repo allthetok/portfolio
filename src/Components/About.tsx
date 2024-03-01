@@ -7,14 +7,15 @@ import { aboutData, skillsData } from '@/content/textdata'
 import { AboutDtl } from '@/helpers/types'
 
 const About = () => {
-	const { ref } = useSectionInView('Home', 0.5)
+	const { ref } = useSectionInView('Personal', 0.5)
 	const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
 
 	return (
-		<section ref={ref} id='about' className='mb-28 mt-[34rem] w-auto mx-auto text-center mr-50 sm:mb-0'>
+		<section ref={ref} id='about' className='mb-28 mt-[34rem] w-auto text-center ml-36 sm:mb-0'>
 			<div className='flex flex-col'>
 				<h2 className='text-slate-300 text-7xl font-extrabold mb-10'>About Me</h2>
 				<div className='flex flex-row items-start justify-normal'>
+					<Image className='rounded-3xl mr-[-10rem]' src='/about/5.jpg' alt='Picture of Me!' width={600} height={500}/>
 					<div className='flex flex-col justify-center gap-y-20'>
 						<div className='w-full min-w-[60rem]'>
 							{aboutData.map((item: AboutDtl, index: number) => (
@@ -41,7 +42,7 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<Image className='rounded-3xl' src='/IMG_4950.jpg' alt='Picture of Me!' width={800} height={500}/>
+					{/* <Image className='rounded-3xl' src='/about/5.jpg' alt='Picture of Me!' width={800} height={500}/> */}
 				</div>
 			</div>
 		</section>

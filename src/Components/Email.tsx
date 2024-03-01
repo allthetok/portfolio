@@ -9,7 +9,7 @@ import { Submit } from './Submit'
 import toast from 'react-hot-toast'
 
 const Email = () => {
-	const { ref } = useSectionInView('Home', 0.5)
+	const { ref } = useSectionInView('Contact', 0.5)
 	const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
 
 	return (

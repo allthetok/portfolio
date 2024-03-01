@@ -6,7 +6,7 @@ import { WorkTime } from '@/Components/WorkTime'
 import { Projects } from '@/Components/Projects'
 import { Email } from '@/Components/Email'
 
-const Home = () => {
+const Content = () => {
 	return (
 		<main className='flex flex-col items-center px-4'>
 			<Intro />
@@ -18,4 +18,4 @@ const Home = () => {
 	)
 }
 
-export default Home
+export default Content

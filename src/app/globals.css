@@ -26,7 +26,13 @@
 }
 
 .background-gradient {
-	background: linear-gradient(99.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+	/* background: linear-gradient(99.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%); */
+	/* background: linear-gradient(135deg, rgb(206, 159, 252) 10%, rgb(115, 103, 240) 100%); */
+	/* background: linear-gradient(109.6deg, rgb(218, 185, 252) 11.2%, rgb(125, 89, 252) 91.1%); */
+	
+	background: linear-gradient(99.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);
+
+
 	z-index: -1;
 	background-size: 100%;
 	height: 100vh;
@@ -61,5 +67,42 @@
 @media (max-width: 2000px) {
 	.carousel-width {
 		width: 750px;
+	}
+}
+
+.text-shdw {
+	text-shadow: #daddeb 1px 0 15px;
+}
+
+.text-shdw-act {
+	text-shadow: black 1px 0 15px;
+}
+
+.git-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.position-footer {
+	margin-top: auto;
+}
+
+.nav-flex {
+	flex-direction: column;
+}
+
+@media (min-width: 1920px) {
+	.nav-flex {
+		flex-direction: row;
+	}
+}
+
+.nav-top {
+	top: 3.75px;
+}
+
+@media (max-width: 1920px) {
+	.nav-top {
+		top: 40%;
 	}
 }

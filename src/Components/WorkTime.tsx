@@ -7,7 +7,7 @@ import { timelineData } from '@/content/textdata'
 import { TimeLineDtl } from '@/helpers/types'
 
 const WorkTime = () => {
-	const { ref } = useSectionInView('Home', 0.5)
+	const { ref } = useSectionInView('Work', 0.5)
 	const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
 	return (
 		<section ref={ref} id='work' className='mt-28 mb-28 max-w-[60rem] text-center sm:mb-0'>
