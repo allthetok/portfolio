@@ -18,9 +18,18 @@ const WorkTimeItem = ({ timeItem }: WorkTimeItemProps) => {
 						{timeItem.title} - {timeItem.company}
 					</div>
 				</div>
-				<p className='my-2 text-base font-normal text-white'>
+				<p className='my-2 text-sm text-slate-300 text-left'>
 					{timeItem.details}
 				</p>
+				<ul className='mt-2 flex flex-wrap'>
+					{timeItem.skills.map((skill: string, index: number) => (
+						<li className='mr-1.5 mt-2' key={index}>
+							<div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300'>
+								{skill}
+							</div>
+						</li>
+					))}
+				</ul>
 			</li>
 		</ol>
 	)

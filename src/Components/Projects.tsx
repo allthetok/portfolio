@@ -12,7 +12,7 @@ const Projects = () => {
 	return (
 		<section ref={ref} id='projects' className='mt-12 mb-28 mr-0 text-center sm:mb-0'>
 			<div className='flex flex-col'>
-				<h2 className='text-slate-300 text-7xl font-extrabold'>My Projects</h2>
+				<h2 className='text-slate-300 text-7xl font-extrabold uppercase text-shdw-sm tracking-wider'>My Projects</h2>
 				<div className='flex flex-col md:flex-row justify-center my-20 w-[1760px] ml-40'>
 					<div className='w-full mx-auto'>
 						{projects.map((proj: ProjectDtl, index: number) => (

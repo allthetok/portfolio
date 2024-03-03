@@ -88,6 +88,10 @@
 	text-shadow: black 1px 0 15px;
 }
 
+.text-shdw-sm {
+	text-shadow: #ddd 0.5px 0 3.75px;
+}
+
 .git-link {
 	text-decoration: none;
 	color: inherit;
@@ -123,4 +127,8 @@
 
 .about-img {
 	width: 700px;
+}
+
+.project-carousel {
+	width: 850px;
 }

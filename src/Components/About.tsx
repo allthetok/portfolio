@@ -15,30 +15,31 @@ const About = () => {
 	const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
 
 	return (
-		<section ref={ref} id='about' className='mb-28 mt-[34rem] w-auto text-center ml-36 sm:mb-0'>
+		<section ref={ref} id='about' className='mb-36 mt-[44rem] w-auto text-center ml-36'>
 			<div className='flex flex-col'>
-				{/* <h2 className='text-slate-200 tracking-tight text-6xl font-extrabold mb-10'>About Me</h2> */}
+				{/* <h2 className='text-transparent tracking-tight text-6xl font-extrabold mb-10'>About Me</h2> */}
 				<div className='flex flex-row items-start justify-normal gap-x-10 max-w-[1920px]'>
 					{/* <Image className='rounded-3xl mr-[-10rem]' src='/about/6.png' alt='Picture of Me!' width={600} height={500}/> */}
 					<Carousel NextIcon={<ArrowForwardIcon/>} PrevIcon={<ArrowBackIcon/>} stopAutoPlayOnHover={true} interval={10000} animation={'fade'} className='about-carousel ml-0 w-3xl'>
 						{aboutImages.map((screenshot: string, index: number) => (
-							<img key={index} className='image-carousel border border-white rounded-3xl about-img' src={screenshot} alt='Pic of Me!' />
+							<img key={index} className='image-carousel border border-teal-300 rounded-3xl about-img' src={screenshot} alt='Pic of Me!' />
 						))}
 					</Carousel>
-					<div className='flex flex-col justify-center items-start gap-y-20 max-w-3xl'>
+					<div className='flex flex-col justify-center items-start gap-y-20 max-w-3xl my-auto p-4 border border-transparent hover:border rounded-3xl hover:bg-indigo-900/20'>
+						{/* <h2 className='text-3xl text-slate-200 font-extrabold -mb-12 tracking-wide font-sans'>Hey, I'm Allen T.</h2> */}
 						<div className='w-full min-w-64'>
 							{aboutData.map((item: AboutDtl, index: number) => (
-								<div className='flex flex-col gap-y-4 mb-10' key={index}>
+								<div className='flex flex-col mb-4' key={index}>
 									{/* <h2 className='text-slate-300 text-5xl font-extrabold text-nowrap'>
 										{item.heading}
 									</h2> */}
-									<p className='text-md text-slate-300 font-semibold leading-7 w-[560px] mx-auto'>
+									<p className='text-md text-slate-300 leading-7 w-[560px] flex-wrap text-left'>
 										{item.details}
 									</p>
 								</div>
 							))}
 						</div>
-						<div className='flex flex-col justify-center items-center mt-[-5rem] w-[560px]'>
+						<div className='flex flex-col justify-center items-center mt-[-5rem] w-[460px]'>
 							{/* <h2 className='text-slate-300 text-5xl font-extrabold text-nowrap mb-8'>
 								Development Skills
 							</h2>

@@ -3,7 +3,8 @@ interface TimeLineDtl {
 	to: string,
 	title: string,
 	company: string,
-	details: string
+	details: string,
+	skills: string[]
 }
 
 interface AboutDtl {
