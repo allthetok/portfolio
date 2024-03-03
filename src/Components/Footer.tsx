@@ -15,7 +15,8 @@ const Footer = () => {
 				color: '#daddeb',
 				paddingTop: '10px',
 				verticalAlign: 'middle',
-				background: 'linear-gradient(109.6deg, rgb(218, 185, 252) 11.2%, rgb(125, 89, 252) 91.1%)'
+				// background: 'linear-gradient(109.6deg, rgb(218, 185, 252) 11.2%, rgb(125, 89, 252) 91.1%)'
+				background: 'linear-gradient(69.5deg, rgb(40, 48, 68) 2.3%, rgb(1, 179, 201) 97.6%)'
 			}}>
 				{'Copyright © '}
 				<Link target='_blank' rel='noopener noreferrer' href='https://github.com/allthetok' className='git-link'>

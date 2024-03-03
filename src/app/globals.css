@@ -30,7 +30,17 @@
 	/* background: linear-gradient(135deg, rgb(206, 159, 252) 10%, rgb(115, 103, 240) 100%); */
 	/* background: linear-gradient(109.6deg, rgb(218, 185, 252) 11.2%, rgb(125, 89, 252) 91.1%); */
 	
-	background: linear-gradient(99.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);
+	/* background: linear-gradient(99.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%); */
+
+
+	/* background: linear-gradient(114.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(0, 143, 213) 93.4%); */
+
+	background: linear-gradient(114.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(34, 42, 34) 93.4%);
+
+
+	/* background: linear-gradient(138deg, rgb(32, 201, 255) 36.7%, rgb(0, 8, 187) 84.4%, rgb(255, 255, 255) 119.7%); */
+	/* background: linear-gradient(69.5deg, rgb(40, 48, 68) 2.3%, rgb(1, 179, 201) 97.6%); */
+
 
 
 	z-index: -1;
@@ -108,7 +118,7 @@
 }
 
 .about-carousel {
-	width: 750px;
+	width: 700px;
 }
 
 .about-img {
