@@ -636,8 +636,16 @@ video {
   margin-left: -1rem;
 }
 
+.-mt-20 {
+  margin-top: -5rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .mb-2 {
@@ -650,10 +658,6 @@ video {
 
 .mb-28 {
   margin-bottom: 7rem;
-}
-
-.mb-36 {
-  margin-bottom: 9rem;
 }
 
 .mb-4 {
@@ -700,10 +704,6 @@ video {
   margin-right: -10rem;
 }
 
-.mt-0 {
-  margin-top: 0px;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -732,6 +732,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-96 {
+  margin-top: 24rem;
+}
+
 .mt-\[-5rem\] {
   margin-top: -5rem;
 }
@@ -740,8 +744,24 @@ video {
   margin-top: 1.5rem;
 }
 
-.mt-\[44rem\] {
-  margin-top: 44rem;
+.-mt-12 {
+  margin-top: -3rem;
+}
+
+.-mt-24 {
+  margin-top: -6rem;
+}
+
+.mt-64 {
+  margin-top: 16rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
 }
 
 .inline-block {
@@ -776,12 +796,20 @@ video {
   height: 13rem;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .h-\[3rem\] {
   height: 3rem;
 }
 
 .h-\[4\.5rem\] {
   height: 4.5rem;
+}
+
+.h-\[110vh\] {
+  height: 110vh;
 }
 
 .max-h-\[180px\] {
@@ -794,6 +822,22 @@ video {
 
 .max-h-\[80px\] {
   max-height: 80px;
+}
+
+.min-h-\[100vh\] {
+  min-height: 100vh;
+}
+
+.min-h-\[120vh\] {
+  min-height: 120vh;
+}
+
+.min-h-\[50vh\] {
+  min-height: 50vh;
+}
+
+.min-h-\[110vh\] {
+  min-height: 110vh;
 }
 
 .w-3 {
@@ -1392,11 +1436,12 @@ video {
   /* background: linear-gradient(99.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%); */
   /* background: linear-gradient(114.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(0, 143, 213) 93.4%); */
   background: linear-gradient(114.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(34, 42, 34) 93.4%);
+  /* background: linear-gradient(34.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(34, 42, 34) 93.4%); */
   /* background: linear-gradient(138deg, rgb(32, 201, 255) 36.7%, rgb(0, 8, 187) 84.4%, rgb(255, 255, 255) 119.7%); */
   /* background: linear-gradient(69.5deg, rgb(40, 48, 68) 2.3%, rgb(1, 179, 201) 97.6%); */
   z-index: -1;
   background-size: 100%;
-  height: 100vh;
+  height: 110vh;
 }
 
 .image-carousel {

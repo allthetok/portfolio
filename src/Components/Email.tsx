@@ -13,7 +13,7 @@ const Email = () => {
 	const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
 
 	return (
-		<section id='contact' ref={ref}	className='my-20 text-center flex flex-col'>
+		<section id='contact' ref={ref}	className='min-h-[50vh] mt-96 mb-12 text-center flex flex-col'>
 			<h2 className='text-5xl text-slate-300 font-bold'>Contact me</h2>
 			<p className='text-gray-700 mt-6 dark:text-white/80'>
 				Please contact me directly at{' '}

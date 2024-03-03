@@ -11,34 +11,34 @@ const timelineData: TimeLineDtl[] = [
 		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
 	},
 	{
-		from: 'July 2021',
-		to: 'Present',
-		title: '.NET Software Developer',
-		company: 'FAST Enterprises LLC',
+		from: 'April 2020',
+		to: 'September 2020',
+		title: 'Software Engineer Intern',
+		company: 'Solutions Stores Inc.',
+		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
+	},
+	{
+		from: 'September 2019',
+		to: 'May 2021',
+		title: 'Executive Developer',
+		company: "Queen's Web Dev Team",
 		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
 		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
 	},
 	{
 		from: 'July 2021',
 		to: 'Present',
-		title: '.NET Software Developer',
-		company: 'FAST Enterprises LLC',
+		title: 'Full Stack Developer Intern',
+		company: 'Polymet Solutions Corp',
 		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
 		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
 	},
 	{
-		from: 'July 2021',
-		to: 'Present',
-		title: '.NET Software Developer',
-		company: 'FAST Enterprises LLC',
-		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
-	},
-	{
-		from: 'July 2021',
-		to: 'Present',
-		title: '.NET Software Developer',
-		company: 'FAST Enterprises LLC',
+		from: 'September 2020',
+		to: 'April 2021',
+		title: 'Teaching Assistant',
+		company: "Queen's University",
 		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
 		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
 	}
