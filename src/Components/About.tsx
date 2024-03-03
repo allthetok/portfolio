@@ -1,9 +1,13 @@
+/* eslint-disable @next/next/no-img-element */
 'use client'
 import React from 'react'
 import Image from 'next/image'
 import { useActiveSectionContext } from '@/context/action-section-context'
 import { useSectionInView } from '@/hooks/sectionscroll'
-import { aboutData, skillsData } from '@/content/textdata'
+import { aboutData, aboutImages, skillsData } from '@/content/textdata'
+import Carousel from 'react-material-ui-carousel'
+import ArrowBackIcon from '@mui/icons-material/ArrowBack'
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import { AboutDtl } from '@/helpers/types'
 
 const About = () => {
@@ -14,9 +18,14 @@ const About = () => {
 		<section ref={ref} id='about' className='mb-28 mt-[34rem] w-auto text-center ml-36 sm:mb-0'>
 			<div className='flex flex-col'>
 				<h2 className='text-slate-300 text-7xl font-extrabold mb-10'>About Me</h2>
-				<div className='flex flex-row items-start justify-normal'>
-					<Image className='rounded-3xl mr-[-10rem]' src='/about/5.jpg' alt='Picture of Me!' width={600} height={500}/>
-					<div className='flex flex-col justify-center gap-y-20'>
+				<div className='flex flex-row items-start justify-normal max-w-[1920px]'>
+					{/* <Image className='rounded-3xl mr-[-10rem]' src='/about/6.png' alt='Picture of Me!' width={600} height={500}/> */}
+					<Carousel NextIcon={<ArrowForwardIcon/>} PrevIcon={<ArrowBackIcon/>} stopAutoPlayOnHover={true} interval={10000} animation={'fade'} className='about-carousel ml-64 w-3xl'>
+						{aboutImages.map((screenshot: string, index: number) => (
+							<img key={index} className='image-carousel border border-white rounded-3xl about-img' src={screenshot} alt='Pic of Me!' />
+						))}
+					</Carousel>
+					<div className='flex flex-col justify-center gap-y-20 max-w-3xl'>
 						<div className='w-full min-w-[60rem]'>
 							{aboutData.map((item: AboutDtl, index: number) => (
 								<div className='flex flex-col gap-y-4 mb-10' key={index}>
