@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	--cursor-color: #daddeb;
+}
+
 .background-image {
 	/* background: url(../../public/background.jpg) */
 	background: url(../../public/background5.jpg);
