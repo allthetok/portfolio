@@ -15,7 +15,7 @@ const About = () => {
 	const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
 
 	return (
-		<section ref={ref} id='about' className='min-h-[110vh] w-auto text-center ml-36'>
+		<section ref={ref} id='about' className='min-h-[125vh] w-auto text-center ml-36'>
 			<div className='flex flex-col'>
 				{/* <h2 className='text-transparent tracking-tight text-6xl font-extrabold mb-10'>About Me</h2> */}
 				<div className='flex flex-row items-start justify-normal gap-x-10 max-w-[1920px]'>

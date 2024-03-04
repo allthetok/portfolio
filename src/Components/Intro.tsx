@@ -10,11 +10,11 @@ import { useActiveSectionContext } from '@/context/action-section-context'
 import { useSectionInView } from '@/hooks/sectionscroll'
 
 const Intro = () => {
-	const { ref } = useSectionInView('Home', 0.9)
+	const { ref } = useSectionInView('Home', 0.5)
 	const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
 
 	return (
-		<section ref={ref} id='home' className='mb-24 max-w-[50rem] text-center h-[110vh]'>
+		<section ref={ref} id='home' className='mb-24 max-w-[50rem] text-center h-[125vh]'>
 			<div className='mt-56'>
 				<div className='flex items-center justify-center mt-5'>
 					<Image src='/profile.jpg' alt='Me!'	width='240'	height='240' quality='95' priority={true} className='h-48 w-48 rounded-full object-cover border-[0.35rem] border-white shadow-xl' />

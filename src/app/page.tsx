@@ -9,7 +9,7 @@ import { Cursor } from '@/Components/Cursor'
 
 const Content = () => {
 	return (
-		<main className='flex flex-col items-center px-4'>
+		<main className='flex flex-col items-center'>
 			<Cursor />
 			<Intro />
 			<About />

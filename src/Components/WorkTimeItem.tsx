@@ -8,7 +8,7 @@ type WorkTimeItemProps = {
 const WorkTimeItem = ({ timeItem }: WorkTimeItemProps) => {
 	return (
 		<ol className='flex flex-col md-flex-row relative border-l border-stone-200 '>
-			<div className='p-4 border border-transparent hover:border rounded-3xl hover:bg-indigo-900/20'>
+			<div className='p-1 border border-transparent hover:border rounded-3xl hover:bg-indigo-900/20'>
 				<li className='mb-10 ml-4'>
 					<div className='absolute w-3 h-3 bg-stone-200 rounded-full mt-[1.5rem] -left-1.5 border border-white' />
 					<div className='flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm'>

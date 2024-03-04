@@ -39,19 +39,25 @@
 
 	/* background: linear-gradient(114.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(0, 143, 213) 93.4%); */
 
-	background: linear-gradient(114.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(34, 42, 34) 93.4%);
+	/* background: linear-gradient(114.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(34, 42, 34) 93.4%); */
 
-	/* background: linear-gradient(34.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(34, 42, 34) 93.4%); */
+	background: linear-gradient(34.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(34, 42, 34) 93.4%);
 
 
 	/* background: linear-gradient(138deg, rgb(32, 201, 255) 36.7%, rgb(0, 8, 187) 84.4%, rgb(255, 255, 255) 119.7%); */
 	/* background: linear-gradient(69.5deg, rgb(40, 48, 68) 2.3%, rgb(1, 179, 201) 97.6%); */
 
 
-
 	z-index: -1;
 	background-size: 100%;
-	height: 110vh;
+	height: 125vh;
+}
+
+.background-gradient-large {
+	background: linear-gradient(34.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(34, 42, 34) 93.4%);
+	z-index: 0;
+	background-size: 100%;
+	height: min-content;
 }
 
 .image-carousel {
@@ -111,20 +117,14 @@
 	flex-direction: column;
 }
 
-@media (min-width: 2560px) {
+/* @media (min-width: 2560px) {
 	.nav-flex {
 		flex-direction: row;
 	}
-}
+} */
 
 .nav-top {
-	top: 3.75px;
-}
-
-@media (max-width: 2560px) {
-	.nav-top {
-		top: 40%;
-	}
+	top: 40%;
 }
 
 .about-carousel {
@@ -137,4 +137,10 @@
 
 .project-carousel {
 	width: 850px;
+}
+
+@media (max-width: 1200px) {
+	.nav-hidden {
+		display: none;
+	}
 }

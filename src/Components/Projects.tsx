@@ -10,10 +10,10 @@ const Projects = () => {
 	const { ref } = useSectionInView('Projects', 0.5)
 	const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
 	return (
-		<section ref={ref} id='projects' className='mt-32 mb-28 mr-0 text-center'>
-			<div className='flex flex-col'>
+		<section ref={ref} id='projects' className='mt-0 mb-0 pt-48 mr-0 text-center background-gradient-large w-full'>
+			<div className='flex flex-col w-[1760px] mx-auto'>
 				<h2 className='text-slate-300 text-7xl font-extrabold uppercase text-shdw-sm tracking-wider'>My Projects</h2>
-				<div className='flex flex-col md:flex-row justify-center my-20 w-[1760px] ml-40'>
+				<div className='flex flex-col md:flex-row justify-center mt-20 w-[1760px] ml-32'>
 					<div className='w-full mx-auto'>
 						{projects.map((proj: ProjectDtl, index: number) => (
 							<ProjectItem indProj={proj} key={index} />
