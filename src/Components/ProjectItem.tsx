@@ -14,14 +14,9 @@ type ProjectItemProps = {
 
 const ProjectItem = ({ indProj }: ProjectItemProps) => {
 	return (
-		<div className='flex 2xl:flex-row mx-auto flex-col justify-center mb-12 gap-x-10 bg-indigo-700/20 rounded-3xl max-w-[1600px] py-8 px-3'>
-			{/* <Carousel NextIcon={<ArrowForwardIcon/>} PrevIcon={<ArrowBackIcon/>} stopAutoPlayOnHover={true} interval={10000} animation={'fade'} className='carousel-width'>
-				{indProj.images.map((screenshot: string, index: number) => (
-					<img key={index} className='image-carousel border border-white rounded-3xl' src={screenshot} alt='Project Screenshot' />
-				))}
-			</Carousel> */}
-			<div className='flex flex-row'>
-				<div className='flex flex-col w-[560px]'>
+		<div className='flex 2xl:flex-row mx-auto flex-col justify-center mb-12 gap-x-10 bg-indigo-700/20 rounded-3xl max-w-[1600px] project-container-sec py-8 px-3'>
+			<div className='flex flex-row project-row-sec'>
+				<div className='flex flex-col w-[560px] project-text-sec'>
 					<Link className='text-slate-300 text-3xl w-72 mx-auto rounded-3xl font-bold mb-2 p-2 uppercase text-shdw-sm flex flex-row justify-center gap-x-4 hover:bg-indigo-700/40 hover:scale-105 tracking-wider' href={indProj.link} target='_blank'>
 						{indProj.name}
 						<div className='text-slate-300 pt-1'>

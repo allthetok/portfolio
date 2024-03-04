@@ -15,10 +15,10 @@ const About = () => {
 	const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
 
 	return (
-		<section ref={ref} id='about' className='min-h-[125vh] w-auto text-center ml-36'>
+		<section ref={ref} id='about' className='min-h-[125vh] w-auto text-center ml-36 background-gradient-sec'>
 			<div className='flex flex-col'>
 				{/* <h2 className='text-transparent tracking-tight text-6xl font-extrabold mb-10'>About Me</h2> */}
-				<div className='flex flex-row items-start justify-normal gap-x-10 max-w-[1920px]'>
+				<div className='flex flex-row items-start justify-normal gap-x-10 max-w-[1920px] about-sec'>
 					{/* <Image className='rounded-3xl mr-[-10rem]' src='/about/6.png' alt='Picture of Me!' width={600} height={500}/> */}
 					<Carousel NextIcon={<ArrowForwardIcon/>} PrevIcon={<ArrowBackIcon/>} stopAutoPlayOnHover={true} interval={10000} animation={'fade'} className='about-carousel ml-0 w-3xl'>
 						{aboutImages.map((screenshot: string, index: number) => (
