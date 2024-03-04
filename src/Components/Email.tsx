@@ -2,7 +2,6 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import { useActiveSectionContext } from '@/context/action-section-context'
 import { useSectionInView } from '@/hooks/sectionscroll'
 import { sendEmail } from '@/actions/resend'
 import { Submit } from './Submit'
@@ -10,7 +9,6 @@ import toast from 'react-hot-toast'
 
 const Email = () => {
 	const { ref } = useSectionInView('Contact', 0.5)
-	const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
 
 	return (
 		<section id='contact' ref={ref}	className='min-h-[50vh] w-full pt-64 pb-32 text-center flex flex-col background-gradient-large'>

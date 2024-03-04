@@ -2,7 +2,6 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import { useActiveSectionContext } from '@/context/action-section-context'
 import { useSectionInView } from '@/hooks/sectionscroll'
 import { aboutData, aboutImages, skillsData } from '@/content/textdata'
 import Carousel from 'react-material-ui-carousel'
@@ -12,10 +11,8 @@ import { AboutDtl } from '@/helpers/types'
 
 const About = () => {
 	const { ref } = useSectionInView('Personal', 0.5)
-	const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
-
 	return (
-		<section ref={ref} id='about' className='min-h-[125vh] w-auto text-center ml-36 background-gradient-sec'>
+		<section ref={ref} id='about' className='min-h-[125vh] w-auto pt-24 text-center ml-36 background-gradient-sec'>
 			<div className='flex flex-col'>
 				{/* <h2 className='text-transparent tracking-tight text-6xl font-extrabold mb-10'>About Me</h2> */}
 				<div className='flex flex-row items-start justify-normal gap-x-10 max-w-[1920px] about-sec'>

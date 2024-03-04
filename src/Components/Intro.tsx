@@ -17,7 +17,7 @@ const Intro = () => {
 		<section ref={ref} id='home' className='mb-24 max-w-[50rem] text-center h-[125vh]'>
 			<div className='mt-56'>
 				<div className='flex items-center justify-center mt-5'>
-					<Image src='/profile.jpg' alt='Me!'	width='240'	height='240' quality='95' priority={true} className='h-48 w-48 rounded-full object-cover border-[0.35rem] border-white shadow-xl' />
+					<Image src='/profile2.png' alt='Me!'	width='240'	height='240' quality='95' priority={true} className='h-48 w-48 rounded-full object-cover border-[0.35rem] border-white shadow-xl' />
 				</div>
 				<h1 className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl text-slate-300 flex flex-col'>
 					<span className='font-semibold'>Hi there! I'm <span className='font-extrabold'>Allen Tokjuman.</span></span>
