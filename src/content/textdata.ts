@@ -93,7 +93,7 @@ const timelineDataQU: TimeLineDtl[] = [
 const aboutData: AboutDtl[] = [
 	{
 		heading: 'The Start',
-		details: "Back in 2016, with all of my attention on high school Calculus, I decided to try my hand at creating a Graphing Calculator app and it was my first foray into coding and creating my first large-scale app for the world to use. Fast-forward to today, and upon completing my Undergraduate in Computer Engineering from Queen's University, I’ve had the privilege of building software for multiple startups, free-lancing with small businesses and working alongside a massive client, the Ministry of Finance, to provide thousands of government staff across Ontario with automated software processes in an effort to lessen their workload in serving our province and moving more of what they do to the web."
+		details: "Back in 2016, with all of my attention on Calculus, I decided to try my hand at creating a Graphing Calculator app and it was my first foray into coding and creating a large-scale app for the world to use. Fast-forward to today, and after finishing my degree in Computer Engineering from Queen's University, I’ve had the privilege of building software for multiple startups, free-lancing with small businesses and working alongside a massive client, the Ministry of Finance, to provide thousands of government staff across Ontario with automated software processes in an effort to lessen their workload in serving our province and moving more of what they do to the web."
 	},
 	{
 		heading: 'Current Day',
@@ -105,14 +105,14 @@ const aboutData: AboutDtl[] = [
 	}
 ]
 
-const skillsData: string[] = ['Typescript', 'React', 'NextJS', 'NodeJS', 'ExpressJS', 'Fastify', 'Angular', 'Python', 'Django', 'Flask', 'TensorFlow', 'Java', 'Spring', 'C#', '.NET', 'SQL', 'Postgres', 'MongoDB', 'HTML', 'CSS', 'Tailwind', 'Sass', 'Jest', 'Docker', 'Docker Compose', 'AWS', 'Azure', 'Git Bash', 'Version Control', 'OAuth', 'JWT', 'HTTPS', 'RESTful APIs', 'Test Automation', 'CI/CD', 'AGILE', 'Object Oriented Programming', 'Data Structures & Algorithms']
+const skillsData: string[] = ['Typescript', 'React', 'NextJS', 'NodeJS', 'ExpressJS', 'Fastify', 'Angular', 'Python', 'Django', 'Flask', 'TensorFlow', 'Java', 'Spring', 'C#', '.NET', 'SQL', 'Postgres', 'MongoDB', 'HTML', 'CSS', 'Tailwind', 'Sass', 'Jest', 'Docker', 'Docker Compose', 'Nginx', 'AWS', 'Azure', 'Ubuntu', 'Git Bash', 'Version Control', 'OAuth', 'JWT', 'HTTPS', 'RESTful APIs', 'Test Automation', 'CI/CD', 'AGILE', 'Object Oriented Programming', 'Data Structures & Algorithms']
 
 const projects: ProjectDtl[] = [
 	{
 		name: 'GamesAtlas',
 		description: "I'm a passionate software engineer with over 5 years of experience in the field. I thrive on turning ideas into reality through elegant and efficient code. My journey in software development has led me through various projects, each one teaching me new skills and pushing the boundaries of what's possible. In my 5 years in the industry, I've honed my skills in [mention specific technologies or areas you specialize in, e.g., full-stack development, front-end frameworks like Angular, back-end with Node.js, etc.]. I've had the pleasure of working on diverse projects, from developing scalable web applications to optimizing database performance. Each project has been a learning experience, refining my problem-solving abilities and attention to detail.",
 		images: ['GamesAtlas/GA1.JPG', 'GamesAtlas/GA2.JPG', 'GamesAtlas/GA3.JPG', 'GamesAtlas/GA4.JPG', 'GamesAtlas/GA5.JPG', 'GamesAtlas/GA6.JPG', 'GamesAtlas/GA7.JPG', 'GamesAtlas/GA8.JPG', 'GamesAtlas/GA9.JPG', 'GamesAtlas/GA10.JPG', 'GamesAtlas/GA11.JPG', 'GamesAtlas/GA12.JPG', 'GamesAtlas/GA13.JPG', 'GamesAtlas/GA14.JPG', 'GamesAtlas/GA15.JPG', 'GamesAtlas/GA16.JPG', 'GamesAtlas/GA17.JPG', 'GamesAtlas/GA19.JPG', 'GamesAtlas/GA20.JPG', 'GamesAtlas/GA21.JPG', 'GamesAtlas/GA22.JPG', 'GamesAtlas/GA23.JPG'],
-		libraries: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React'],
+		libraries: ['React', 'NextJSv13.0', 'Typescript', 'ExpressJS', 'PostgreSQL', 'Nginx', 'Docker', 'DigitalOcean', 'Material UI', 'CSS', 'NextAuth', 'OAuth2.0', 'Axios', 'SSR', '2FA', 'SMTP', 'HTTPS', 'REST API', 'Server/Client Components', '/pages directory', 'Custom Hooks', 'Context Providers', 'Responsive Design'],
 		link: 'https://at.games-atlas.xyz/',
 		frontend: 'https://github.com/allthetok/Gamesatlasfe',
 		backend: 'https://github.com/allthetok/GamesAtlas'
@@ -121,7 +121,7 @@ const projects: ProjectDtl[] = [
 		name: 'AT Kicks',
 		description: "I'm a passionate software engineer with over 5 years of experience in the field. I thrive on turning ideas into reality through elegant and efficient code. My journey in software development has led me through various projects, each one teaching me new skills and pushing the boundaries of what's possible. In my 5 years in the industry, I've honed my skills in [mention specific technologies or areas you specialize in, e.g., full-stack development, front-end frameworks like Angular, back-end with Node.js, etc.]. I've had the pleasure of working on diverse projects, from developing scalable web applications to optimizing database performance. Each project has been a learning experience, refining my problem-solving abilities and attention to detail.",
 		images: ['ATKicks/AK1.JPG', 'ATKicks/AK2.JPG', 'ATKicks/AK3.JPG', 'ATKicks/AK4.JPG', 'ATKicks/AK5.JPG', 'ATKicks/AK6.JPG', 'ATKicks/AK7.JPG', 'ATKicks/AK8.JPG', 'ATKicks/AK9.JPG', 'ATKicks/AK10.JPG', 'ATKicks/AK11.JPG', 'ATKicks/AK12.JPG', 'ATKicks/AK13.JPG', 'ATKicks/AK14.JPG', 'ATKicks/AK16.JPG', 'ATKicks/AK17.JPG', 'ATKicks/AK18.JPG', 'ATKicks/AK19.JPG'],
-		libraries: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React'],
+		libraries: ['React', 'NextJSv14.0', 'Typescript', 'ExpressJS', 'PostgreSQL', 'Caddy (proxy)', 'Docker', 'Docker Compose', 'DigitalOcean', 'Material UI', 'CSS', 'TailwindCSS', 'Stripe', 'Toast', 'NextAuth', 'OAuth2.0', 'Axios', 'SSR', '2FA', 'SMTP', 'HTTPS', 'REST API', 'Server/Client Components', '/app directory', 'Custom Hooks', 'Context Providers', 'Responsive Design'],
 		link: 'https://atkicks.allentok.com/',
 		frontend: 'https://github.com/allthetok/FrontEndEC',
 		backend: 'https://github.com/allthetok/Ecommerce'
@@ -130,10 +130,10 @@ const projects: ProjectDtl[] = [
 		name: 'PodFinder',
 		description: "I'm a passionate software engineer with over 5 years of experience in the field. I thrive on turning ideas into reality through elegant and efficient code. My journey in software development has led me through various projects, each one teaching me new skills and pushing the boundaries of what's possible. In my 5 years in the industry, I've honed my skills in [mention specific technologies or areas you specialize in, e.g., full-stack development, front-end frameworks like Angular, back-end with Node.js, etc.]. I've had the pleasure of working on diverse projects, from developing scalable web applications to optimizing database performance. Each project has been a learning experience, refining my problem-solving abilities and attention to detail.",
 		images: ['PodFinder/PF1.JPG', 'PodFinder/PF2.JPG', 'PodFinder/PF3.JPG', 'PodFinder/PF4.JPG', 'PodFinder/PF5.JPG', 'PodFinder/PF6.JPG', 'PodFinder/PF7.JPG', 'PodFinder/PF8.JPG', 'PodFinder/PF9.JPG', 'PodFinder/PF10.JPG', 'PodFinder/PF11.JPG', 'PodFinder/PF12.JPG', 'PodFinder/PF13.JPG'],
-		libraries: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React'],
+		libraries: ['React', 'React Router', 'Typescript', 'ExpressJS', 'PostgreSQL', 'ElephantSQL', 'Material UI', 'CSS', 'Brevo', 'Native Auth', 'Axios', '2FA', 'SMTP', 'HTTPS', 'REST API', 'Custom Hooks', 'Context Providers', 'Responsive Design'],
 		link: 'https://github.com/allthetok/PodApp',
 		frontend: 'https://github.com/allthetok/PodApp',
-		backend: 'https://github.com/allthetok/PodApp'
+		backend: 'https://github.com/allthetok/PodApp/tree/main/api'
 	}
 ]
 

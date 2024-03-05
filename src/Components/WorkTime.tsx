@@ -8,7 +8,7 @@ import { TimeLineDtl } from '@/helpers/types'
 const WorkTime = () => {
 	const { ref } = useSectionInView('Work', 0.5)
 	return (
-		<section ref={ref} id='work' className='min-h-[100vh] mb-0 text-center py-12 background-gradient-large w-full'>
+		<section ref={ref} id='work' className='min-h-[100vh] mb-0 text-center pt-24 pb-12 background-gradient-large w-full'>
 			<div className='flex flex-col'>
 				<div className='flex flex-row justify-center max-w-[72rem] mx-auto work-time-dir gap-x-10'>
 					{/* <div className='w-full md:w-7/12 flex-wrap'>
