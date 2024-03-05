@@ -211,3 +211,9 @@
 		margin-right: auto;
 	}
 }
+
+@media (min-width: 2560px) {
+	.project-dtl-sec {
+		margin-left: auto;
+	}
+}
