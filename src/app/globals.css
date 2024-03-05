@@ -217,3 +217,19 @@
 		margin-left: auto;
 	}
 }
+
+@media (max-width: 1200px) and (min-width: 800px) {
+	.work-time-dir {
+		flex-direction: column;
+		width: fit-content;
+		margin-left: 20%;
+	}
+}
+
+@media (max-width: 800px) {
+	.work-time-dir {
+		flex-direction: column;
+		width: fit-content;
+		margin-left: 1rem;
+	}
+}

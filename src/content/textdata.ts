@@ -11,15 +11,23 @@ const timelineData: TimeLineDtl[] = [
 		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
 	},
 	{
-		from: 'April 2020',
-		to: 'September 2020',
+		from: 'Apr',
+		to: 'Sep 2020',
 		title: 'Software Engineer Intern',
 		company: 'Solutions Stores Inc.',
 		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
 		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
 	},
 	{
-		from: 'September 2019',
+		from: 'Apr',
+		to: 'Sep 2019',
+		title: 'Software Developer Intern',
+		company: 'Polymet Solutions Corp',
+		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
+	},
+	{
+		from: 'Sep 2019',
 		to: 'May 2021',
 		title: 'Executive Developer',
 		company: "Queen's Web Dev Team",
@@ -27,16 +35,54 @@ const timelineData: TimeLineDtl[] = [
 		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
 	},
 	{
+		from: 'Sep 2020',
+		to: 'May 2021',
+		title: 'Undergraduate Teaching Assistant',
+		company: "Queen's University",
+		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
+	}
+]
+
+const timelineDataSWE: TimeLineDtl[] = [
+	{
 		from: 'July 2021',
 		to: 'Present',
-		title: 'Full Stack Developer Intern',
-		company: 'Polymet Solutions Corp',
+		title: '.NET Software Developer',
+		company: 'FAST Enterprises LLC',
 		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
 		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
 	},
 	{
-		from: 'September 2020',
-		to: 'April 2021',
+		from: 'Apr',
+		to: 'Sep 2020',
+		title: 'Software Engineer Intern',
+		company: 'Solutions Stores Inc.',
+		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
+	},
+	{
+		from: 'Apr',
+		to: 'Sep 2019',
+		title: 'Software Developer Intern',
+		company: 'Polymet Solutions Corp',
+		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
+	}
+]
+
+const timelineDataQU: TimeLineDtl[] = [
+	{
+		from: 'Sep 2019',
+		to: 'May 2021',
+		title: 'Executive Developer',
+		company: "Queen's Web Dev Team",
+		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
+	},
+	{
+		from: 'Sep 2020',
+		to: 'May 2021',
 		title: 'Undergraduate Teaching Assistant',
 		company: "Queen's University",
 		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
@@ -46,15 +92,15 @@ const timelineData: TimeLineDtl[] = [
 
 const aboutData: AboutDtl[] = [
 	{
-		heading: 'My Experience',
+		heading: 'The Start',
 		details: "Back in 2016, with all of my attention on high school Calculus, I decided to try my hand at creating a Graphing Calculator app and it was my first foray into coding and creating my first large-scale app for the world to use. Fast-forward to today, and upon completing my Undergraduate in Computer Engineering from Queen's University, I’ve had the privilege of building software for multiple startups, free-lancing with small businesses and working alongside a massive client, the Ministry of Finance, to provide thousands of government staff across Ontario with automated software processes in an effort to lessen their workload in serving our province and moving more of what they do to the web."
 	},
 	{
-		heading: 'My Experience 2',
+		heading: 'Current Day',
 		details: "As I've gained experience in the field, I'm also refining my ability to lead projects with large-scale clientele and bridging the gap from business user to developer by asking questions to understand my client's requirements, while also documenting them in an easy manner for myself and other developers to understand in technical terms. I find the most enjoyment in looking back at a piece of code that I've worked on and hitting the sweet spot where human needs and software engineering meet — software that scales, is easy to follow along for other engineers and provides the most utility to my end users. In my free time, you can find me building projects that provide utility to me and any others who share my interests of gaming, EDM and long-form media content while using these as a learning experience to tinker around with new libraries, methodologies and broaden my arsenal of development skills. "
 	},
 	{
-		heading: 'My Experience 3',
+		heading: 'Free Time',
 		details: "In the rare time I'm away from my beloved PC, I enjoy going on walks with my dog, widening my EDM sub-genre palette, hanging out with my friends and loved ones, or experimenting with a new recipe to see if it'll find a way into my kitchen classics."
 	}
 ]
@@ -118,4 +164,4 @@ const aboutImages = [
 	'about/1.jpg', 'about/5.JPG', 'about/6.png', 'about/8.png'
 ]
 
-export { timelineData, aboutData, skillsData, projects, links, aboutImages }
+export { timelineData, timelineDataSWE, timelineDataQU, aboutData, skillsData, projects, links, aboutImages }

@@ -808,6 +808,10 @@ video {
   min-height: 50vh;
 }
 
+.min-h-\[100vh\] {
+  min-height: 100vh;
+}
+
 .w-3 {
   width: 0.75rem;
 }
@@ -884,8 +888,8 @@ video {
   max-width: 560px;
 }
 
-.max-w-\[60rem\] {
-  max-width: 60rem;
+.max-w-\[72rem\] {
+  max-width: 72rem;
 }
 
 @keyframes spin {
@@ -1154,6 +1158,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -1180,6 +1189,10 @@ video {
 
 .pt-64 {
   padding-top: 16rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .text-left {
@@ -1613,6 +1626,24 @@ video {
 @media (min-width: 2560px) {
   .project-dtl-sec {
     margin-left: auto;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 800px) {
+  .work-time-dir {
+    flex-direction: column;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 800px) {
+  .work-time-dir {
+    flex-direction: column;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 1rem;
   }
 }
 

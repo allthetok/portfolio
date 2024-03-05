@@ -2,26 +2,30 @@
 import React from 'react'
 import { useSectionInView } from '@/hooks/sectionscroll'
 import { WorkTimeItem } from './WorkTimeItem'
-import { timelineData } from '@/content/textdata'
+import { timelineData, timelineDataQU, timelineDataSWE } from '@/content/textdata'
 import { TimeLineDtl } from '@/helpers/types'
 
 const WorkTime = () => {
 	const { ref } = useSectionInView('Work', 0.5)
 	return (
-		<section ref={ref} id='work' className='min-h-[125vh] mb-0 text-center -mt-16 pb-12 background-gradient-large w-full'>
+		<section ref={ref} id='work' className='min-h-[100vh] mb-0 text-center py-12 background-gradient-large w-full'>
 			<div className='flex flex-col'>
-				{/* <h2 className='text-slate-300 text-6xl font-extrabold text-shdw-sm tracking-wider uppercase'>Experience</h2> */}
-				<div className='flex flex-row justify-center max-w-[60rem] mx-auto'>
-					<div className='w-full md:w-7/12 flex-wrap'>
+				<div className='flex flex-row justify-center max-w-[72rem] mx-auto work-time-dir gap-x-10'>
+					{/* <div className='w-full md:w-7/12 flex-wrap'>
 						{timelineData.map((item: TimeLineDtl, index: number) => (
 							<WorkTimeItem timeItem={item} key={index} />
 						))}
-					</div>
-					{/* <div className='w-full md:w-7/12 flex-wrap'>
-						{timelineData.slice(3,6).map((item: TimeLineDtl, index: number) => (
+					</div> */}
+					<div className='w-full md:w-7/12 flex-wrap'>
+						{timelineDataSWE.map((item: TimeLineDtl, index: number) => (
 							<WorkTimeItem timeItem={item} key={index} />
 						))}
-					</div> */}
+					</div>
+					<div className='w-full md:w-7/12 flex-wrap'>
+						{timelineDataQU.map((item: TimeLineDtl, index: number) => (
+							<WorkTimeItem timeItem={item} key={index} />
+						))}
+					</div>
 				</div>
 			</div>
 		</section>
