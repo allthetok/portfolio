@@ -636,10 +636,6 @@ video {
   margin-left: -1rem;
 }
 
-.-mt-16 {
-  margin-top: -4rem;
-}
-
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -800,16 +796,16 @@ video {
   max-height: 80px;
 }
 
+.min-h-\[100vh\] {
+  min-height: 100vh;
+}
+
 .min-h-\[125vh\] {
   min-height: 125vh;
 }
 
 .min-h-\[50vh\] {
   min-height: 50vh;
-}
-
-.min-h-\[100vh\] {
-  min-height: 100vh;
 }
 
 .w-3 {
@@ -1158,11 +1154,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -1189,10 +1180,6 @@ video {
 
 .pt-64 {
   padding-top: 16rem;
-}
-
-.pt-12 {
-  padding-top: 3rem;
 }
 
 .text-left {
@@ -1290,6 +1277,18 @@ video {
 
 .leading-7 {
   line-height: 1.75rem;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-9 {
+  line-height: 2.25rem;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
 }
 
 .tracking-\[0\.2em\] {
@@ -1532,6 +1531,19 @@ video {
 
 .project-carousel {
   width: 850px;
+}
+
+@media (min-width: 1535px) {
+  .project-carousel {
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 1535px) {
+  .project-carousel {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (max-width: 1600px) {

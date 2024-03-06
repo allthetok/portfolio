@@ -51,7 +51,7 @@ const timelineDataSWE: TimeLineDtl[] = [
 		title: '.NET Software Developer',
 		company: 'FAST Enterprises LLC',
 		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
+		skills: ['C#', 'SQL', '.NET', 'Azure', 'SSO', 'AGILE', 'MSTest', 'RESTful API', 'Database Maintenance', 'Data Conversion', 'Project Management']
 	},
 	{
 		from: 'Apr',
@@ -59,7 +59,7 @@ const timelineDataSWE: TimeLineDtl[] = [
 		title: 'Software Engineer Intern',
 		company: 'Solutions Stores Inc.',
 		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
+		skills: ['React', 'Django', 'AWS', 'Bootstrap', 'AGILE', 'Git', 'Jira & Bitbucket', 'Python', 'Javascript', 'HTML', 'CSS', 'Typescript', 'Cypress Testing' ]
 	},
 	{
 		from: 'Apr',
@@ -77,16 +77,17 @@ const timelineDataQU: TimeLineDtl[] = [
 		to: 'May 2021',
 		title: 'Executive Developer',
 		company: "Queen's Web Dev Team",
-		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
+		details: `As Manager for a team of 4 students, I led the development of a React-powered website for a local dental practice certification company, reviewing Git pull requests, delegation of development tasks, and leading meetings with our client to document their requirements. Simultaneously, I organized and conducted weekly open-to-all seminars on current industry web development libraries and tools. My role involved providing technical guidance, and facilitating discussions to enhance the team's skills and project outcomes, resulting in a successful website launch, with minimal maintenance required and an upskilled team confident in their React skills!`,
+		skills: ['React', 'CSS', 'HTML', 'Git', 'Docker', 'Firebase', 'MongoDB', 'Database Design', 'Project Management']
 	},
 	{
 		from: 'Sep 2020',
 		to: 'May 2021',
 		title: 'Undergraduate Teaching Assistant',
 		company: "Queen's University",
-		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
+		details: `Teaching Assistant for ELEC326 - Probability & Random Processes, ELEC374 - Digital Systems Engineering. In ELEC326, I assisted Prof. Gazor in delivering course materials by leading weekly tutorials and office hours, walking through sample problems and explaining concepts that students struggled with. In ELEC374, I worked with Prof. Afsahi as a resource in the weekly Lab portion, where students would design a RISC processor in Verilog or VHDL over the semester.
+		 I assisted students in translating class theory to machine code for CPU operations.`,
+		skills: []
 	}
 ]
 
@@ -105,7 +106,7 @@ const aboutData: AboutDtl[] = [
 	}
 ]
 
-const skillsData: string[] = ['Typescript', 'React', 'NextJS', 'NodeJS', 'ExpressJS', 'Fastify', 'Angular', 'Python', 'Django', 'Flask', 'TensorFlow', 'Java', 'Spring', 'C#', '.NET', 'SQL', 'Postgres', 'MongoDB', 'HTML', 'CSS', 'Tailwind', 'Sass', 'Jest', 'Docker', 'Docker Compose', 'Nginx', 'AWS', 'Azure', 'Ubuntu', 'Git Bash', 'Version Control', 'OAuth', 'JWT', 'HTTPS', 'RESTful APIs', 'Test Automation', 'CI/CD', 'AGILE', 'Object Oriented Programming', 'Data Structures & Algorithms']
+const skillsData: string[] = ['Typescript', 'React', 'NextJS', 'NodeJS', 'ExpressJS', 'Fastify', 'Angular', 'Python', 'Django', 'Flask', 'TensorFlow', 'Java', 'Spring', 'C#', '.NET', 'SQL', 'Postgres', 'MongoDB', 'HTML', 'CSS', 'Tailwind', 'Sass', 'Jest', 'Docker', 'Docker Compose', 'Nginx', 'AWS', 'Azure', 'Ubuntu', 'Git Bash', 'Version Control', 'OAuth', 'JWT', 'HTTPS', 'RESTful APIs', 'Test Automation', 'CI/CD', 'AGILE', 'Object Oriented Programming', 'DS&A']
 
 const projects: ProjectDtl[] = [
 	{
@@ -114,7 +115,7 @@ const projects: ProjectDtl[] = [
 		area where you can find games that fit your parameters of platform, overall rating, release date, genre, theme, game category, and game studios. All of which can be sorted by popularity, rating, name or release date. Through the secure REST API which runs on a Dockerized ExpressJS & Typescript, PostgreSQL and Nginx container, hosted on DigitalOcean, anyone is able to sign up securely with 2FA or through an OAuth provider such as Google, Discord, Spotify, Twitch and Github. You can save games you've liked, and based on these,
 		GamesAtlas provides recommendations on other titles. Users can also set game preferences, such as their platform, favorite game genre, theme and type which will provide personalised recommendations, which can be viewed on the Recommendations page.`,
 		images: ['GamesAtlas/GA1.JPG', 'GamesAtlas/GA2.JPG', 'GamesAtlas/GA3.JPG', 'GamesAtlas/GA4.JPG', 'GamesAtlas/GA5.JPG', 'GamesAtlas/GA6.JPG', 'GamesAtlas/GA7.JPG', 'GamesAtlas/GA8.JPG', 'GamesAtlas/GA9.JPG', 'GamesAtlas/GA10.JPG', 'GamesAtlas/GA11.JPG', 'GamesAtlas/GA12.JPG', 'GamesAtlas/GA13.JPG', 'GamesAtlas/GA14.JPG', 'GamesAtlas/GA15.JPG', 'GamesAtlas/GA16.JPG', 'GamesAtlas/GA17.JPG', 'GamesAtlas/GA19.JPG', 'GamesAtlas/GA20.JPG', 'GamesAtlas/GA21.JPG', 'GamesAtlas/GA22.JPG', 'GamesAtlas/GA23.JPG'],
-		libraries: ['React', 'NextJSv13.0', 'Typescript', 'ExpressJS', 'PostgreSQL', 'Nginx', 'Docker', 'DigitalOcean', 'Material UI', 'CSS', 'NextAuth', 'OAuth2.0', 'Axios', 'SSR', '2FA', 'SMTP', 'HTTPS', 'REST API', 'Server/Client Components', '/pages directory', 'Custom Hooks', 'Context Providers', 'Responsive Design'],
+		libraries: ['React', 'NextJSv13.0', 'Typescript', 'ExpressJS', 'PostgreSQL', 'Nginx', 'Docker', 'DigitalOcean', 'Material UI', 'CSS', 'NextAuth', 'OAuth2.0', 'Axios', 'SSR', '2FA', 'SMTP', 'HTTPS', 'REST API', 'Server/Client Components', '/pages directory', 'NextJS Middleware', 'Custom Hooks', 'Context Providers', 'Responsive Design'],
 		link: 'https://at.games-atlas.xyz/',
 		frontend: 'https://github.com/allthetok/Gamesatlasfe',
 		backend: 'https://github.com/allthetok/GamesAtlas'
@@ -122,7 +123,7 @@ const projects: ProjectDtl[] = [
 	{
 		name: 'AT Kicks',
 		description: `AT Kicks is a proof of concept ECommerce storefront that specializes in trendy footwear. The frontend was built with NextJS for speedy Server-side rendering, Typescript for data uniformity, Tailwind for quick and easy styling and Stripe for a secure checkout with Stripe, while secure endpoints, store inventory and user authentication are managed by the Dockerized Fastify & Typescript, PostgreSQL and Caddy container as a REST API, hosted on DigitalOcean. With data scraped from official retailers, ATKicks has over 
-		35 different type of shoes and models, with a large array of colorways and detailed product information. You can search for shoes, and if you're unsure of what to look for, the Products page provides a way to filter all shoes based on Brands, Model Types and Shoe Editions, here you can also sort based on the name, release date and price. Anybody can sign up with 2FA or through your favorite OAuth provider, for an in-depth account page to keep track of all your orders. Meanwhile Stripe provides an easy way 
+		has detailed product information for 30+ different type of shoes and a large array of colorways. You can search for shoes, and if you're unsure of what to look for, the Products page provides a way to filter all shoes based on Brands, Model Types and Shoe Editions, here you can also sort based on the name, release date and price. Anybody can sign up with 2FA or through your favorite OAuth provider, for an in-depth account page to keep track of all your orders. Meanwhile Stripe provides an easy way 
 		to keep track of your cart with cart activity being displayed by Toast notifications, provide a secure Checkout with custom branding and email invoices upon successful payment.`,
 		images: ['ATKicks/AK1.JPG', 'ATKicks/AK2.JPG', 'ATKicks/AK3.JPG', 'ATKicks/AK4.JPG', 'ATKicks/AK5.JPG', 'ATKicks/AK6.JPG', 'ATKicks/AK7.JPG', 'ATKicks/AK8.JPG', 'ATKicks/AK9.JPG', 'ATKicks/AK10.JPG', 'ATKicks/AK11.JPG', 'ATKicks/AK12.JPG', 'ATKicks/AK13.JPG', 'ATKicks/AK14.JPG', 'ATKicks/AK16.JPG', 'ATKicks/AK17.JPG', 'ATKicks/AK18.JPG', 'ATKicks/AK19.JPG'],
 		libraries: ['React', 'NextJSv14.0', 'Typescript', 'Fastify', 'PostgreSQL', 'Caddy (proxy)', 'Docker', 'Docker Compose', 'DigitalOcean', 'Material UI', 'CSS', 'TailwindCSS', 'Stripe', 'Toast', 'NextAuth', 'OAuth2.0', 'Axios', 'SSR', '2FA', 'SMTP', 'HTTPS', 'REST API', 'Server/Client Components', '/app directory', 'Custom Hooks', 'Context Providers', 'Responsive Design'],

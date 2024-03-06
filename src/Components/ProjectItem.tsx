@@ -33,7 +33,7 @@ const ProjectItem = ({ indProj }: ProjectItemProps) => {
 							Backend
 						</Link>
 					</div>
-					<p className='text-slate-300 text-md mb-5 text-left'>
+					<p className='text-slate-300 text-sm mb-5 text-left leading-6'>
 						{indProj.description}
 					</p>
 					<ul className='mt-2 flex flex-wrap'>
