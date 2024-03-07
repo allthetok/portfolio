@@ -58,8 +58,8 @@ const timelineDataSWE: TimeLineDtl[] = [
 		to: 'Sep 2020',
 		title: 'Software Engineer Intern',
 		company: 'Solutions Stores Inc.',
-		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-		skills: ['React', 'Django', 'AWS', 'Bootstrap', 'AGILE', 'Git', 'Jira & Bitbucket', 'Python', 'Javascript', 'HTML', 'CSS', 'Typescript', 'Cypress Testing' ]
+		details: "Contributed to a virtual health clinic app for family practice clinics across Ontario in an agile team. Led a significant internship project collaborating with UI/UX Designers and Project Manager to organize Kanban boards, develop timelines, and requirements. Successfully delivered the initial phase of the app, as a SPA React app, with SASS and Bootstrap for component styling and a Flask + PostgreSQL container to securely serve endpoints as a REST API within one sprint and implemented automation for data injection in the second sprint. This resulted in a secure internal registration portal for doctors and clinics, streamlining user sign-up and verification processes without manual intervention. Designed backend infrastructure enabling clinic staff to manage virtual appointments seamlessly and integrated with mdnius for direct data transfer to the general user app.",
+		skills: ['React', 'Flask', 'AWS', 'Bootstrap', 'AGILE', 'Git', 'Jira & Bitbucket', 'Python', 'Javascript', 'HTML', 'Sass', 'Typescript', 'Cypress Unit Testing', 'Twilio', 'Serverless' ]
 	},
 	{
 		from: 'Apr',
