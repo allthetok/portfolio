@@ -50,7 +50,7 @@ const timelineDataSWE: TimeLineDtl[] = [
 		to: 'Present',
 		title: '.NET Software Developer',
 		company: 'FAST Enterprises LLC',
-		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+		details: "Currently work as the Team Lead & Manager on the implementation and maintenance of the Portable Housing and Healthy Smiles Ontario Benefit Programs with client, the Ontario Ministry of Finance (MOF). Lead developer on REST API development in the C# .NET framework, on new functionality to read inbound payments keyed in through the frontend by MOF staff and allocate them across Ministry of Labour (MOL) debts. Developed a helper class to systematically allocate funds to bank accounts and process payments via Interac, successfully routing and prorating over $2 million since rolling out in October 2023. This solution, fortified by MSTest Unit testing, eliminated manual payment calculations, enhancing efficiency and accuracy. Led meetings with Ministry of Labour (MOL) stakeholders to gather business requirements for the subsequent MOL debt Remittance Report. This report aids MOF in reconciling mailed payments with system-allocated ones and was developed using an efficient PostgreSQL query which joins and groups over 25 tables. Additionally, streamlined authentication on the frontend to implement single sign-on for our Azure web infrastructure, reducing automated 2FA text volume by 35% and providing MOF staff with a seamless 24-hour access tokens. Lead developer in reworking over 50 client reports in the Collections subsystem, optimizing underlying SQL queries- resulting in approximately 20% faster report generation—by ensuring proper table joins using clustered indexes.",
 		skills: ['C#', 'SQL', '.NET', 'Azure', 'SSO', 'AGILE', 'MSTest', 'RESTful API', 'Database Maintenance', 'Data Conversion', 'Project Management']
 	},
 	{
@@ -67,7 +67,7 @@ const timelineDataSWE: TimeLineDtl[] = [
 		title: 'Software Developer Intern',
 		company: 'Polymet Solutions Corp',
 		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
+		skills: ['React', 'Kubernetes', 'CAD', 'pyautocad', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
 	}
 ]
 
