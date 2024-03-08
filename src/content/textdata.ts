@@ -39,7 +39,7 @@ const timelineData: TimeLineDtl[] = [
 		to: 'May 2021',
 		title: 'Undergraduate Teaching Assistant',
 		company: "Queen's University",
-		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+		details: '',
 		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
 	}
 ]
