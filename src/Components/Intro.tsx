@@ -20,10 +20,10 @@ const Intro = () => {
 					<Image src='/profile2.png' alt='Me!'	width='240'	height='240' quality='95' priority={true} className='h-48 w-48 rounded-full object-cover border-[0.35rem] border-white shadow-xl' />
 				</div>
 				<h1 className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl text-slate-300 flex flex-col'>
-					<span className='font-semibold'>Hi there! I'm <span className='font-extrabold'>Allen Tokjuman.</span></span>
-					<span className='font-semibold'>I'm a full-stack software engineer</span>
-					<span className='font-semibold'>with 5 years of experience building</span>
-					<span className='font-semibold'>production-scale web applications.</span>
+					<span className='font'>Hi there! I'm <span className='font-extrabold'>Allen Tokjuman.</span></span>
+					<span className='font'>I'm a full-stack software engineer with</span>
+					<span className='font'>5 years of experience in developing &</span>
+					<span className='font'>maintaining production-scale web apps.</span>
 				</h1>
 				<div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'>
 					<Link href='#contact' className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition'
