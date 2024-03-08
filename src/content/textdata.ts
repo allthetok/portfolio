@@ -3,7 +3,7 @@ import { AboutDtl, ProjectDtl, TimeLineDtl } from '@/helpers/types'
 
 const timelineData: TimeLineDtl[] = [
 	{
-		from: 'July 2021',
+		from: 'June 2021',
 		to: 'Present',
 		title: '.NET Software Developer',
 		company: 'FAST Enterprises LLC',
@@ -46,7 +46,7 @@ const timelineData: TimeLineDtl[] = [
 
 const timelineDataSWE: TimeLineDtl[] = [
 	{
-		from: 'July 2021',
+		from: 'June 2021',
 		to: 'Present',
 		title: '.NET Software Developer',
 		company: 'FAST Enterprises LLC',
@@ -67,7 +67,7 @@ const timelineDataQU: TimeLineDtl[] = [
 	{
 		from: 'Sep 2019',
 		to: 'May 2021',
-		title: 'Executive Developer',
+		title: 'Executive Web Developer',
 		company: "Queen's Web Dev Team",
 		details: `As Manager for a team of 4 students, I led the development of a React SPA website for a Kingston-local dental practice certification company by reviewing Git pull requests, delegating development issues, and leading meetings with our client to document their requirements. Simultaneously, I conducted weekly open-to-all seminars on current industry web development libraries and tools. My role involved providing technical guidance and facilitating discussions to enhance the team's skills and project outcomes, resulting in a successful website launch, with minimal maintenance required and an upskilled team confident in their web-dev skills!`,
 		skills: ['React', 'CSS', 'HTML', 'Git', 'Docker', 'Firebase', 'MongoDB', 'Database Design', 'Project Management']
