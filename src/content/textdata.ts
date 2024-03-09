@@ -102,7 +102,7 @@ const aboutData: AboutDtl[] = [
 	},
 	{
 		heading: 'Free Time',
-		details: "In the rare time I'm away from my beloved PC, I enjoy going on walks with my dog, widening my EDM sub-genre palette, hanging out with my friends and loved ones, or experimenting with a new recipe to see if it'll find a way into my kitchen classics."
+		details: "When I'm away from my beloved PC, I enjoy going on walks with my dog, widening my EDM sub-genre palette, hanging out with my friends and loved ones, or experimenting with a new recipe to see if it'll find a way into my kitchen classics."
 	}
 ]
 
