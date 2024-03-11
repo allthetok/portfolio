@@ -7,50 +7,7 @@ const timelineData: TimeLineDtl[] = [
 		to: 'Present',
 		title: '.NET Software Developer',
 		company: 'FAST Enterprises LLC',
-		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
-	},
-	{
-		from: 'Apr',
-		to: 'Sep 2020',
-		title: 'Software Engineer Intern',
-		company: 'Solutions Stores Inc.',
-		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
-	},
-	{
-		from: 'Apr',
-		to: 'Sep 2019',
-		title: 'Software Developer Intern',
-		company: 'Polymet Solutions Corp',
-		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
-	},
-	{
-		from: 'Sep 2019',
-		to: 'May 2021',
-		title: 'Executive Developer',
-		company: "Queen's Web Dev Team",
-		details: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
-	},
-	{
-		from: 'Sep 2020',
-		to: 'May 2021',
-		title: 'Undergraduate Teaching Assistant',
-		company: "Queen's University",
-		details: '',
-		skills: ['HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React', 'NextJS', 'HTML', 'CSS', 'React']
-	}
-]
-
-const timelineDataSWE: TimeLineDtl[] = [
-	{
-		from: 'June 2021',
-		to: 'Present',
-		title: '.NET Software Developer',
-		company: 'FAST Enterprises LLC',
-		details: "Currently Dev Team Manager on the maintenance of the Portable Housing and Healthy Smiles Ontario Benefit Programs with client, the Ontario Ministry of Finance (MOF). Lead developer on new Interac payment functionality by integrating helper class to systematically calculate and route funds to MOL bank accounts, with existing payment routes in REST API on C# .NET framework, fortified by unit testing in MSTest, processing $2M+ and removing manual calculation by MOF staff. Led meetings with MOL stakeholders to gather business requirements for the subsequent Payment Remittance Report, aiding the MOF in reconciling mailed payments with system-allocated results, developed using an efficient PostgreSQL query. Additionally, I streamlined user authentication by implementing single sign-on (SSO) on our Azure cloud infrastructure, reducing automated 2FA text volume by 35% and providing MOF staff with seamless 24-hour access. Lead developer in reworking over 50 client reports in the Collections subsystem, optimizing underlying SQL queries- resulting in approximately 20% faster report generation by ensuring proper table joins using clustered indexes.",
+		details: "Currently Dev Team Manager on the maintenance of the Portable Housing and Healthy Smiles Ontario Benefit Programs with client, the Ontario Ministry of Finance (MOF). Lead developer on new Interac payment functionality by integrating helper class to systematically calculate and route funds to MOL bank accounts, with existing payment routes in REST API on C# .NET framework, fortified by unit testing in MSTest, processing $2M+ and removing manual calculation by MOF staff. Led meetings with MOL staff to gather business requirements for the subsequent Remittance Report, aiding the MOF in reconciling mailed payments with system-allocated results, developed using an efficient PostgreSQL query. I streamlined user authentication by implementing single sign-on (SSO) on our Dockerized REST API containers hosted on Azure, reducing automated 2FA text volume by 35% and providing MOF staff with seamless 24-hour access. Lead developer in reworking over 50 client reports in the Collections subsystem, optimizing underlying SQL queries- resulting in approximately 20% faster report generation by ensuring proper table joins using clustered indexes.",
 		skills: ['C#', 'SQL', '.NET', 'Azure', 'SSO', 'AGILE', 'MSTest', 'RESTful API', 'Database Maintenance', 'Data Conversion', 'Project Management']
 	},
 	{
@@ -58,12 +15,17 @@ const timelineDataSWE: TimeLineDtl[] = [
 		to: 'Sep 2020',
 		title: 'Software Engineer Intern',
 		company: 'Solutions Stores Inc.',
-		details: "Contributed to a virtual health clinic app for family practice clinics across Ontario in an agile team. Led a significant internship project collaborating with UI/UX Designers and a Project Manager to organize Kanban boards, develop timelines, and gather client requirements. Successfully delivered the initial phase of the app, as a SPA React app, with SASS and Bootstrap for component styling and a Flask + PostgreSQL container to securely serve endpoints as a REST API within one sprint, and implemented automation for data injection in the second sprint. This resulted in a secure internal registration portal for doctors and clinics, streamlining user sign-up and verification processes without manual intervention. Designed backend infrastructure enabling clinic staff to manage virtual appointments seamlessly and integrated with MDnius for direct data transfer to the general user app. Led in migrating AWS EC2 instances, security rules & tasks from ECS to Fargate, reducing maintenance and monthly server costs by 15%.",
+		details: "Contributed to a virtual health clinic app for family practice clinics across Ontario in an agile team. Led a significant internship project collaborating with UI/UX Designers and a Project Manager to organize Kanban boards, develop timelines, and gather client requirements. Successfully delivered the initial phase of the app, as a SPA React app, with SASS and Bootstrap for component styling and a Python Flask + PostgreSQL container to securely serve endpoints as a REST API within one sprint, and implemented data injection automation in the second sprint. This resulted in a secure internal registration portal for doctors and clinics, streamlining user sign-up and verification without manual intervention. Designed backend infrastructure enabling clinic staff to manage virtual appointments seamlessly and integrated with MDnius for direct data transfer to the general user app. Led in migrating AWS EC2 instances, security rules & tasks from ECS to Fargate, reducing maintenance and monthly server costs by 15%.",
 		skills: ['React', 'Flask', 'AWS', 'Docker', 'Bootstrap', 'AGILE', 'Git', 'Jira & Bitbucket', 'Python', 'Javascript', 'HTML', 'Sass', 'Typescript', 'Cypress Unit Testing', 'Twilio', 'Serverless' ]
-	}
-]
-
-const timelineDataQU: TimeLineDtl[] = [
+	},
+	{
+		from: 'Apr',
+		to: 'Sep 2019',
+		title: 'Software Developer Intern',
+		company: 'Polymet Solutions Corp',
+		details: "Over my internship, I contributed significantly to streamlining operations in both accounting and AutoCAD automation processes. In the accounting realm, I developed Dockerized containers which included Python scripts integrated with SQL Server to generate quarterly balance reports efficiently. This required the implementation of email automation, with smtplib, sending reports to the accounting team, resulting in 30% time savings previously spent compiling Excel sheets. In the AutoCAD domain, my overarching internship project was to leverage the pyautocad library to create automation scripts for analyzing company mill liner CAD files. These scripts streamlined the creation of new drawings by generating generic layers, points, and arcs, significantly reducing file imports and simplifying the typical process for design engineers.",
+		skills: ['Python', 'SQL Server', 'Docker & Docker Compose', 'Kubernetes', 'pyautocad', 'AutoCAD', 'smtplib', 'CAD Automation', 'SMTP', 'Email Automation']
+	},
 	{
 		from: 'Sep 2019',
 		to: 'May 2021',
@@ -77,7 +39,45 @@ const timelineDataQU: TimeLineDtl[] = [
 		to: 'May 2021',
 		title: 'Undergraduate Teaching Assistant',
 		company: "Queen's University",
-		details: "Teaching Assistant for ELEC326 - Probability & Random Processes, ELEC374 - Digital Systems Engineering. In ELEC326, I led weekly tutorials and office hours, walking through sample problems and explaining concepts that students struggled with. In ELEC374, I worked as a resource in the weekly Lab course portion, where students would design a RISC processor in Verilog or VHDL over the semester. I assisted students in translating class theory to machine code for CPU operations.",
+		details: "Teaching Assistant for ELEC326 - Probability & Random Processes and ELEC374 - Digital Systems Engineering. In ELEC326, I led weekly tutorials and office hours, walking through sample problems and explaining concepts that students struggled with. In ELEC374, I worked as a resource in the weekly Lab course portion, where students would design a RISC processor in Verilog or VHDL over the semester. I assisted students in translating class theory to machine code for CPU operations.",
+		skills: []
+	}
+]
+
+const timelineDataSWE: TimeLineDtl[] = [
+	{
+		from: 'June 2021',
+		to: 'Present',
+		title: '.NET Software Developer',
+		company: 'FAST Enterprises LLC',
+		details: "Dev Team Manager on the maintenance of the Portable Housing and Healthy Smiles Provincial Benefit Programs with client, the Ontario Ministry of Finance (MOF). Lead developer on new Interac payment functionality by integrating helper class to systematically calculate and route funds to MOL bank accounts, with existing payment routes in REST API on C# .NET framework, fortified by unit testing in MSTest, processing $2M+ and removing manual calculation by MOF staff. Led meetings with MOL staff to gather business requirements for the subsequent Payment Remittance Report, aiding the MOF in reconciling mailed payments with system-allocated results, developed using an efficient PostgreSQL query. I streamlined user authentication by implementing single sign-on (SSO) on our Dockerized REST API containers hosted on Azure, reducing automated 2FA text volume by 35% and providing MOF staff with seamless 24-hour access. Lead developer in reworking over 50 client reports in the Collections subsystem, optimizing underlying SQL queries- resulting in approximately 20% faster report generation by ensuring proper table joins using clustered indexes.",
+		skills: ['C#', 'SQL', '.NET', 'Azure', 'SSO', 'AGILE', 'MSTest', 'RESTful API', 'Database Maintenance', 'Data Conversion', 'Project Management']
+	},
+	{
+		from: 'Apr',
+		to: 'Sep 2020',
+		title: 'Software Engineer Intern',
+		company: 'Solutions Stores Inc.',
+		details: "Contributed to a virtual health clinic app for family practice clinics across Ontario in an agile team. Led a significant internship project collaborating with UI/UX Designers and a Project Manager to organize Kanban boards, develop timelines, and gather client requirements. Successfully delivered the initial phase of the app, as a SPA React app, with SASS and Bootstrap for component styling and a Python Flask + PostgreSQL container to securely serve endpoints as a REST API within one sprint, and data injection automation in the second sprint. This resulted in a secure internal registration portal for doctors and clinics, streamlining user sign-up and verification without manual intervention. Designed backend infrastructure to enable clinic staff to manage virtual appointments seamlessly and integrated with MDnius for direct data transfer to the general user app. Led in migrating AWS EC2 instances, security rules & tasks to Fargate, reducing maintenance and monthly server costs by 15%.",
+		skills: ['React', 'Flask', 'AWS', 'Docker', 'Bootstrap', 'AGILE', 'Git', 'Jira & Bitbucket', 'Python', 'Javascript', 'HTML', 'Sass', 'Typescript', 'Cypress Unit Testing', 'Twilio', 'Serverless' ]
+	}
+]
+
+const timelineDataQU: TimeLineDtl[] = [
+	{
+		from: 'Sep 2019',
+		to: 'May 2021',
+		title: 'Executive Web Developer',
+		company: "Queen's Web Dev Team",
+		details: "As Manager for a team of 4 students, I led the development of a React SPA website for a Kingston dental practice certification company by reviewing Git pull requests, delegating development issues, and leading meetings with our client to document their requirements. Simultaneously, I conducted weekly open-to-all seminars on current industry web development libraries and tools. My role involved providing technical guidance and facilitating discussions to enhance the team's skills and project outcomes, resulting in a successful website launch, with minimal maintenance required and a team confident in their web-dev skills!",
+		skills: ['React', 'CSS', 'HTML', 'Git', 'Docker', 'Firebase', 'MongoDB', 'Database Design', 'Project Management']
+	},
+	{
+		from: 'Sep 2020',
+		to: 'May 2021',
+		title: 'Undergraduate Teaching Assistant',
+		company: "Queen's University",
+		details: "Teaching Assistant for ELEC326 - Probability & Random Processes and ELEC374 - Digital Systems Engineering. In ELEC326, I led weekly tutorials and office hours, walking through sample problems and explaining concepts that students struggled with. In ELEC374, I worked as a resource in the weekly Lab course portion, where students would design a RISC processor in Verilog or VHDL over the semester. I assisted students in translating class theory to machine code for CPU operations.",
 		skills: []
 	},
 	{
@@ -85,27 +85,31 @@ const timelineDataQU: TimeLineDtl[] = [
 		to: 'Sep 2019',
 		title: 'Software Developer Intern',
 		company: 'Polymet Solutions Corp',
-		details: "Over my internship, I contributed significantly to streamlining operations in both accounting and AutoCAD automation processes. In the accounting realm, I developed Dockerized containers which included Python scripts integrated with SQL Server to generate quarterly balance reports efficiently. This required the implementation of email automation, with smtplib, sending reports to the accounting team, resulting in 30% time savings previously spent compiling Excel sheets. In the AutoCAD domain, my overarching internship project was to leverage the pyautocad library to create automation scripts for analyzing company mill liner CAD files. These scripts streamlined the creation of new drawings by generating generic layers, points, and arcs, significantly reducing file imports and simplifying the typical process for design engineers.",
-		skills: ['Python', 'SQL Server', 'Docker & Docker Compose', 'Kubernetes', 'pyautocad', 'AutoCAD', 'smtplib', 'CAD Automation', 'SMTP', 'Email Automation', 'Scripting']
+		details: "Over my internship, I contributed significantly to streamlining operations in both accounting and AutoCAD automation processes. In the accounting realm, I deployed Docker containers which included Python scripts integrated with SQL Server to generate quarterly balance reports efficiently. This required the implementation of email automation, with smtplib, sending reports to the accounting team, resulting in 30% time savings previously spent compiling Excel sheets. In the AutoCAD domain, my overarching internship project was to leverage the pyautocad library in creating automation scripts by analyzing company mill liner CAD files. These scripts streamlined the creation of new drawings by auto-generating generic layers, points, and arcs, significantly reducing file imports and simplifying the CAD workflow for design engineers.",
+		skills: ['Python', 'SQL Server', 'Docker & Docker Compose', 'Kubernetes', 'pyautocad', 'AutoCAD', 'smtplib', 'CAD Automation', 'SMTP', 'Email Automation']
 	}
 ]
 
 const aboutData: AboutDtl[] = [
 	{
 		heading: 'The Start',
-		details: "Back in 2016, with all of my attention on Calculus, I decided to try my hand at creating a Graphing Calculator app and it was my first foray into coding and creating a large-scale app for the world to use. Fast-forward to today, and after finishing my degree in Computer Engineering from Queen's University, I’ve had the privilege of building software for multiple startups, free-lancing with small businesses and working alongside a massive client, the Ministry of Finance, to provide thousands of government staff across Ontario with automated software processes in an effort to lessen their workload in serving our province and moving more of what they do to the web."
+		details: "Back in 2016, with all of my attention on Calculus, I decided to try my hand at creating a Graphing Calculator app—my first foray into coding and creating a large-scale app for the world to use. Eight years and a degree in Computer Engineering from Queen's University later, I’ve had the privilege of building software for businesses ranging from startups and small businesses to the Ministry of Finance, providing thousands of government staff across Ontario with automated software processes.",
 	},
 	{
 		heading: 'Current Day',
-		details: "As I've gained experience in the field, I'm also refining my ability to lead projects with large-scale clientele and bridging the gap from business user to developer by asking questions to understand my client's requirements, while also documenting them in an easy manner for myself and other developers to understand in technical terms. I find the most enjoyment in looking back at a piece of code that I've worked on and hitting the sweet spot where human needs and software engineering meet — software that scales, is easy to follow along for other engineers and provides the most utility to my end users. In my free time, you can find me building projects that provide utility to me and any others who share my interests of gaming, EDM and long-form media content while using these as a learning experience to tinker around with new libraries, methodologies and broaden my arsenal of development skills. "
+		details: "As I've gained experience in the field, I’ve also refined my ability to lead projects with large-scale clientele: bridging the gap from business user to developer by asking questions to understand my client's requirements, while also documenting them in clear, technical terms on the developer end. I love writing code that hits the sweet spot where human needs and engineering meet—software that scales, is easy to follow along for other engineers, and provides the most utility to end users.",
 	},
 	{
-		heading: 'Free Time',
-		details: "When I'm away from my beloved PC, I enjoy going on walks with my dog, widening my EDM sub-genre palette, hanging out with my friends and loved ones, or experimenting with a new recipe to see if it'll find a way into my kitchen classics."
-	}
+		heading: 'Projects',
+		details: "In my free time, you can find me building projects that provide utility to me and any others who share my interests of gaming, fashion, and long-form media content, while using these as learning experiences to tinker around with new libraries, methodologies, and broaden my arsenal of development skills."
+	},
+	// {
+	// 	heading: 'Free Time',
+	// 	details: "When I'm away from my beloved PC, I enjoy going on walks with my dog, widening my EDM sub-genre palette, hanging out with my loved ones, or experimenting with a new recipe to see if it'll find a way into my kitchen classics."
+	// }
 ]
 
-const skillsData: string[] = ['Typescript', 'React', 'NextJS', 'NodeJS', 'ExpressJS', 'Fastify', 'Angular', 'Python', 'Django', 'Flask', 'TensorFlow', 'Java', 'Spring', 'C#', '.NET', 'SQL', 'Postgres', 'MongoDB', 'HTML', 'CSS', 'Tailwind', 'Sass', 'Jest', 'Docker', 'Docker Compose', 'Nginx', 'AWS', 'Azure', 'Ubuntu', 'Git Bash', 'Version Control', 'OAuth', 'JWT', 'HTTPS', 'RESTful APIs', 'Test Automation', 'CI/CD', 'AGILE', 'Object Oriented Programming', 'DS&A']
+const skillsData: string[] = ['React', 'NextJS', 'NodeJS', 'ExpressJS', 'Fastify', 'Angular', 'Typescript', 'Python', 'Django', 'Flask', 'TensorFlow', 'Java', 'Spring', 'C#', '.NET', 'SQL', 'Postgres', 'MongoDB', 'HTML', 'CSS', 'Tailwind', 'Sass', 'Jest', 'Docker', 'Docker Compose', 'Nginx', 'AWS', 'Azure', 'Kubernetes', 'Ubuntu', 'Git Bash', 'Version Control', 'OAuth', 'HTTPS', 'RESTful APIs', 'CI/CD', 'Test Automation', 'AGILE', 'Object Oriented Programming', 'DS&A']
 
 const projects: ProjectDtl[] = [
 	{
@@ -119,7 +123,7 @@ const projects: ProjectDtl[] = [
 	},
 	{
 		name: 'AT Kicks',
-		description: "AT Kicks is a proof of concept ECommerce storefront that specializes in trendy footwear. The frontend was built with NextJS for speedy Server-side rendering, Typescript for data uniformity, Tailwind for quick and easy styling, and Stripe integration for a secure external checkout. While store inventory, secure endpoints, and user authentication are managed by the Dockerized Fastify & Typescript, PostgreSQL and Caddy container as a REST API, hosted on DigitalOcean. With data scraped from official retailers, ATKicks has detailed product information for 30+ different shoes and a large array of colorways. You can search for shoes, and if you're unsure of what to look for, the Products page provides a way to filter all shoes based on Brands, Model Types, and Shoe Editions, and sort based on name, release date, or price. Anybody can sign up with 2FA or through their favourite OAuth provider, with an in-depth account page to keep track of all orders. Meanwhile, Stripe keeps track of your cart items, with cart activity being displayed by Toast notifications, and provides a secure Checkout including custom branding and email invoices upon a successful payment.",
+		description: "AT Kicks is a proof of concept ECommerce storefront that specializes in trendy footwear. The frontend was built with NextJS for speedy Server-side rendering, Typescript for data uniformity, Tailwind for quick and easy styling, and Stripe integration for a secure external checkout. While store inventory, secure endpoints, and user authentication are managed by the Dockerized Fastify & Typescript, PostgreSQL and Caddy container as a REST API, hosted on DigitalOcean. With data scraped from official retailers, ATKicks has detailed product information for 30+ different shoes and a large array of colorways. You can search for shoes, and if you're unsure of what to look for, the Products page provides a way to filter all shoes based on Brands, Model Types, and Shoe Editions, and sort based on name, release date, or price. Anybody can sign up with 2FA or through their favourite OAuth provider, with an in-depth account page to keep track of all orders. Meanwhile, Stripe keeps track of your cart items, with cart activity being displayed by Toast notifications, and provides a secure Checkout including custom branding and emailed invoices upon a successful payment.",
 		images: ['ATKicks/AK1.JPG', 'ATKicks/AK2.JPG', 'ATKicks/AK3.JPG', 'ATKicks/AK4.JPG', 'ATKicks/AK5.JPG', 'ATKicks/AK6.JPG', 'ATKicks/AK7.JPG', 'ATKicks/AK8.JPG', 'ATKicks/AK9.JPG', 'ATKicks/AK10.JPG', 'ATKicks/AK11.JPG', 'ATKicks/AK12.JPG', 'ATKicks/AK13.JPG', 'ATKicks/AK14.JPG', 'ATKicks/AK16.JPG', 'ATKicks/AK17.JPG', 'ATKicks/AK18.JPG', 'ATKicks/AK19.JPG'],
 		libraries: ['React', 'NextJSv14.0', 'Typescript', 'Fastify', 'PostgreSQL', 'Caddy (proxy)', 'Docker', 'Docker Compose', 'DigitalOcean', 'Material UI', 'CSS', 'TailwindCSS', 'Stripe', 'Toast', 'NextAuth', 'OAuth2.0', 'Axios', 'SSR', '2FA', 'SMTP', 'HTTPS', 'REST API', 'Server/Client Components', '/app directory', 'Custom Hooks', 'Context Providers', 'Responsive Design'],
 		link: 'https://atkicks.allentok.com/',
