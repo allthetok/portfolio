@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Website - Allen Tok
 
-## Getting Started
+Please visit https://dev.allentok.com to enter my personal website!
 
-First, run the development server:
+This app was created and bootstrapped by NextJS using NextJS v13.0 with the /app router.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Frameworks and Libraries Used:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- NextJS v14.0 using the /app router, Client Components (see /Components). Custom layout files for main app anchor routes for Navbar and Footer. As well as server actions for sending emails through ReSend (src/actions/resend.ts)
+- ReactJS v18.2.0 with ES6 Arrow Function Components, Custom Hooks (see /hooks) and Standard React Hooks (useState, useEffect, useCallback, useMemo, useContext) as well as Context Providers for handling the active app section (see /context). Refer to /helpers for any helper functions used in components.
+- TypeScript (Interfaces/Types/Unions) for props and function signatures.
+- ESLint with Typescript Integration
+- MaterialUI v5 with sx prop styling.
+- TailwindCSS v3.4.1 used for lightweight bundling and fast, in-depth styling. As well as responsive design for any screen size.
+- ReSend v3.2.0 for server actions defined in /src/actions which send automated emails through the form to my email address. 
+- CSS Component Stylesheets (Flexbox and Grid) for more detailed css attributes that are necessary (linear gradients, custom background images).
+- Icons8 for Static Assets
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Here are some screenshots from the web app:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![ss2](liveimages/AT2.JPG)
 
-## Learn More
+![ss3](liveimages/AT3.JPG)
 
-To learn more about Next.js, take a look at the following resources:
+![ss4](liveimages/AT4.JPG)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![ss5](liveimages/AT5.JPG)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![ss6](liveimages/AT6.JPG)
 
-## Deploy on Vercel
+![ss7](liveimages/AT7.JPG)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
