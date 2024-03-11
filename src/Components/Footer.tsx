@@ -19,7 +19,7 @@ const Footer = () => {
 				background: 'linear-gradient(69.5deg, rgb(40, 48, 68) 2.3%, rgb(1, 179, 201) 97.6%)'
 			}}>
 				{'Copyright © '}
-				<Link target='_blank' rel='noopener noreferrer' href='https://github.com/allthetok' className='git-link'>
+				<Link target='_blank' rel='noopener noreferrer' href='https://github.com/allthetok/portfolio' className='git-link'>
 					<LinkIcon sx={{
 						verticalAlign: 'bottom',
 						'&hover': {
