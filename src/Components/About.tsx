@@ -20,7 +20,7 @@ const About = () => {
 						))}
 					</Carousel>
 					<div className='flex flex-col justify-center items-start gap-y-20 max-w-3xl my-auto p-4 border border-transparent hover:border rounded-3xl hover:bg-indigo-900/20'>
-						<h2 className='text-3xl text-slate-200 font-bold -mb-16 tracking-wide font-sans'>A little about me.</h2>
+						<h2 className='text-3xl text-slate-200 font-bold -mb-16 tracking-wide font-sans italic'>A little about me.</h2>
 						<div className='w-full min-w-64'>
 							{aboutData.map((item: AboutDtl, index: number) => (
 								<div className='flex flex-col mb-4' key={index}>
