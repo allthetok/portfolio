@@ -165,7 +165,7 @@ const links = [
 ]
 
 const aboutImages = [
-	'about/1.jpg', 'about/5.JPG', 'about/6.png', 'about/8.png'
+	'about/1.jpg', 'about/10.jpg', 'about/5.JPG', 'about/6.png', 'about/8.png'
 ]
 
 export { timelineData, timelineDataSWE, timelineDataQU, aboutData, skillsData, projects, links, aboutImages }
