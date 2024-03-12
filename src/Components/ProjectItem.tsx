@@ -23,15 +23,11 @@ const ProjectItem = ({ indProj }: ProjectItemProps) => {
 							<BsArrowUpRight />
 						</div>
 					</Link>
-					{
-						!(indProj.link.includes('github')) ? 
-						(
-							<Link className='text-slate-300 text-md w-48 mx-auto rounded-3xl font-bold mb-3 underline p-2 -mt-1 text-shdw-sm flex flex-row justify-center gap-x-4 hover:bg-indigo-700/40 hover:scale-125 tracking-wider text-nowrap' href={indProj.link} target='_blank'>
-								{indProj.link.replace('https://','')}
-							</Link>
-						)
-						: (<></>)
-					}
+					{!(indProj.link.includes('github')) ? (
+						<Link className='text-slate-300 text-md w-48 mx-auto rounded-3xl font-bold mb-3 underline p-2 -mt-1 text-shdw-sm flex flex-row justify-center gap-x-4 hover:bg-indigo-700/40 hover:scale-125 tracking-wider text-nowrap' href={indProj.link} target='_blank'>
+							{indProj.link.replace('https://','')}
+						</Link>)
+						: (<></>)}
 					<div className='text-slate-300 text-3xl font-bold pb-4 uppercase flex flex-row justify-center gap-x-4 -ml-4'>
 						<Link className='flex items-center rounded-full bg-purple-700/40 px-3 py-2 text-xs font-medium leading-5 text-slate-300 hover:bg-purple-700/70 hover:scale-105' href={indProj.frontend} target='_blank'>
 							<FaGithubSquare size={20} color='white' />
