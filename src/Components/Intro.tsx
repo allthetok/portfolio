@@ -34,11 +34,11 @@ const Intro = () => {
 							Contact me here
 						<BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
 					</Link>
-					<a className='group bg-zinc-200 text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-zinc-700 hover:text-slate-100 active:scale-105 transition' href='/CV.pdf' download>
+					<a className='group bg-zinc-200 text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-zinc-700 hover:text-slate-100 active:scale-105 transition' href='/resumeallentok.pdf' download>
 						Download Resume
 						<HiDownload className='opacity-60 group-hover:translate-y-1 transition' />
 					</a>
-					<a className='bg-blue-800 p-4 text-white hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack' href='www.linkedin.com/in/allen-tokjuman-97b531131' target='_blank'>
+					<a className='bg-blue-800 p-4 text-white hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack' href='https://linkedin.com/in/allen-tokjuman-97b531131' target='_blank'>
 						<BsLinkedin className='text-white'/>
 					</a>
 					<a className='bg-purple-700 p-4 text-white flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack' href='https://github.com/allthetok' target='_blank'>
