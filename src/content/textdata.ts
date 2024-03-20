@@ -15,16 +15,16 @@ const timelineData: TimeLineDtl[] = [
 		to: 'Sep 2020',
 		title: 'Software Engineer Intern',
 		company: 'Solutions Stores Inc.',
-		details: "Contributed to a virtual health clinic app for family practice clinics across Ontario in an agile team. Led a significant internship project collaborating with UI/UX Designers and a Project Manager to organize Kanban boards, develop timelines, and gather client requirements. Successfully delivered the initial phase of the app, as a SPA React app, with SASS and Bootstrap for component styling and a Python Flask + PostgreSQL container to securely serve endpoints as a REST API within one sprint, and data injection automation in the second sprint. This resulted in a secure internal registration portal for doctors and clinics, streamlining user sign-up and verification without manual intervention. Designed backend infrastructure to enable clinic staff to manage virtual appointments seamlessly and integrated with MDnius for direct data transfer to the general user app. Led in migrating AWS EC2 instances, security rules & tasks to Fargate, reducing maintenance and monthly server costs by 15%.",
-		skills: ['React', 'Flask', 'AWS', 'Docker', 'Bootstrap', 'AGILE', 'Git', 'Jira & Bitbucket', 'Python', 'Javascript', 'HTML', 'Sass', 'Typescript', 'Cypress Unit Testing', 'Twilio', 'Serverless' ]
+		details: "Contributed to a virtual health clinic app for family practice clinics across Ontario in an agile team. Led a significant internship project collaborating with UI/UX Designers and a Project Manager to organize Kanban boards, develop timelines, and gather client requirements. Successfully delivered the initial phase of the app, as a SPA React app, with SASS and Bootstrap for component styling and a Python Django + PostgreSQL container to securely serve endpoints as a REST API within one sprint, and data injection automation to the production general-user app API containers in the second sprint. This resulted in a secure registration portal for clinics, streamlining sign-up and verification. Designed backend infrastructure to enable clinic staff to manage virtual appointments and integrate with MDnius. Helped in migrating AWS EC2 instances, security rules & tasks to Fargate, reducing maintenance and monthly server costs by 15%.",
+		skills: ['React', 'Django', 'AWS', 'Docker', 'Bootstrap', 'AGILE', 'Git', 'Jira & Bitbucket', 'Python', 'Javascript', 'HTML', 'Sass', 'Typescript', 'Cypress Unit Testing', 'Twilio', 'Serverless' ]
 	},
 	{
 		from: 'Apr',
 		to: 'Sep 2019',
 		title: 'Software Developer Intern',
 		company: 'Polymet Solutions Corp',
-		details: "Over my internship, I contributed significantly to streamlining operations in both accounting and AutoCAD automation processes. In the accounting realm, I deployed and managed Docker containers on Kuberenetes which included Python scripts interacting with SQL Server to generate quarterly balance reports efficiently. This required the implementation of email automation, with smtplib, sending reports to the accounting team, resulting in 30% time savings previously spent compiling Excel sheets. In the AutoCAD domain, my overarching internship project was to leverage the pyautocad library in creating automation scripts by analyzing company mill liner CAD files. These scripts helped to streamline the creation of new drawings by auto-generating generic layers, points, and arcs, significantly reducing file imports and simplifying the CAD workflow for design engineers.",
-		skills: ['Python', 'SQL Server', 'Docker & Docker Compose', 'Kubernetes', 'pyautocad', 'AutoCAD', 'smtplib', 'CAD Automation', 'SMTP', 'Email Automation']
+		details: "Over my internship, I contributed significantly to streamlining operations in both accounting and AutoCAD automation processes. In the accounting realm, I deployed and managed Docker containers for a REST API on Kuberenetes, and built with Django as well as SQL Server for the database, to generate quarterly balance reports efficiently. I implemented email automation, with smtplib to send reports to the accounting team, resulting in 30% time savings previously spent compiling Excel sheets. In the AutoCAD domain, my internship project was helping in building a SPA Angular web app. The app enabled engineers to upload CAD files and exported them to Google Drive using Google BigQuery. I also developed Google Cloud Functions to pass payload to DB-layer API and integrate with existing pyautocad plugin scripts. These scripts continuously analyze files and auto-generate frequent layers and arcs in new CAD files, which resulted in 15% design workflow timesaving.",
+		skills: ['Angular', 'Django', 'Python', 'SQL Server', 'Google Cloud', 'Kubernetes', 'Docker & Docker Compose', 'pyautocad', 'AutoCAD', 'smtplib', 'Cloud Functions', 'CAD Automation', 'SMTP', 'Email Automation']
 	},
 	{
 		from: 'Sep 2019',
@@ -58,12 +58,20 @@ const timelineDataSWE: TimeLineDtl[] = [
 		to: 'Sep 2020',
 		title: 'Software Engineer Intern',
 		company: 'Solutions Stores Inc.',
-		details: "Contributed to a virtual health clinic app for family practice clinics across Ontario in an agile team. Led a significant internship project collaborating with UI/UX Designers and a Project Manager to organize Kanban boards, develop timelines, and gather client requirements. Successfully delivered the initial phase of the app, as a SPA React app, with SASS and Bootstrap for component styling and a Python Flask + PostgreSQL container to securely serve endpoints as a REST API within one sprint, and data injection automation in the second sprint. This resulted in a secure internal registration portal for doctors and clinics, streamlining user sign-up and verification without manual intervention. Designed backend infrastructure to enable clinic staff to manage virtual appointments seamlessly and integrated with MDnius for direct data transfer to the general user app. Led in migrating AWS EC2 instances, security rules & tasks to Fargate, reducing maintenance and monthly server costs by 15%.",
-		skills: ['React', 'Flask', 'AWS', 'Docker', 'Bootstrap', 'AGILE', 'Git', 'Jira & Bitbucket', 'Python', 'Javascript', 'HTML', 'Sass', 'Typescript', 'Cypress Unit Testing', 'Twilio', 'Serverless' ]
+		details: "Contributed to a virtual health clinic app for family practice clinics across Ontario in an agile team. Led a significant internship project collaborating with UI/UX Designers and a Project Manager to organize Kanban boards, develop timelines, and gather client requirements. Successfully delivered the initial phase of the app, as a SPA React app, with SASS and Bootstrap for component styling and a Python Django + PostgreSQL container to securely serve endpoints as a REST API within one sprint, and data injection automation to the production general-user app API containers in the second sprint. This resulted in a secure registration portal for clinics, streamlining sign-up and verification. Designed backend infrastructure to enable clinic staff to manage virtual appointments and integrate with MDnius. Helped in migrating AWS EC2 instances, security rules & tasks to Fargate, reducing maintenance and monthly server costs by 15%.",
+		skills: ['React', 'Django', 'AWS', 'Docker', 'Bootstrap', 'AGILE', 'Git', 'Jira & Bitbucket', 'Python', 'Javascript', 'HTML', 'Sass', 'Typescript', 'Cypress Unit Testing', 'Twilio', 'Serverless' ]
 	}
 ]
 
 const timelineDataQU: TimeLineDtl[] = [
+	{
+		from: 'Apr',
+		to: 'Sep 2019',
+		title: 'Software Developer Intern',
+		company: 'Polymet Solutions Corp',
+		details: "Over my internship, I contributed significantly to streamlining operations in both accounting and AutoCAD automation processes. In the accounting realm, I deployed and managed Docker containers for a REST API on Kuberenetes, and built with Django as well as SQL Server for the database, to generate quarterly balance reports efficiently. I implemented email automation, with smtplib to send reports to the accounting team, resulting in 30% time savings previously spent compiling Excel sheets. In the AutoCAD domain, my internship project was helping in building a SPA Angular web app. The app enabled engineers to upload CAD files and exported them to Google Drive using Google BigQuery. I also developed Google Cloud Functions to pass payload to DB-layer API and integrate with existing pyautocad plugin scripts. These scripts continuously analyze files and auto-generate frequent layers and arcs in new CAD files, which resulted in 15% design workflow timesaving.",
+		skills: ['Angular', 'Django', 'Python', 'SQL Server', 'Google Cloud', 'Kubernetes', 'Docker & Docker Compose', 'pyautocad', 'AutoCAD', 'smtplib', 'Cloud Functions', 'CAD Automation', 'SMTP', 'Email Automation']
+	},
 	{
 		from: 'Sep 2019',
 		to: 'May 2021',
@@ -79,14 +87,6 @@ const timelineDataQU: TimeLineDtl[] = [
 		company: "Queen's University",
 		details: "Teaching Assistant for ELEC326 - Probability & Random Processes and ELEC374 - Digital Systems Engineering. In ELEC326, I led weekly tutorials and office hours, walking through sample problems and explaining concepts that students struggled with. In ELEC374, I worked as a resource in the weekly Lab course portion, where students would design a RISC processor in Verilog or VHDL over the semester. I assisted students in translating class theory to machine code for CPU operations.",
 		skills: []
-	},
-	{
-		from: 'Apr',
-		to: 'Sep 2019',
-		title: 'Software Developer Intern',
-		company: 'Polymet Solutions Corp',
-		details: "Over my internship, I contributed significantly to streamlining operations in both accounting and AutoCAD automation processes. In the accounting realm, I deployed and managed Docker containers on Kuberenetes which included Python scripts interacting with SQL Server to generate quarterly balance reports efficiently. This required the implementation of email automation, with smtplib, sending reports to the accounting team, resulting in 30% time savings previously spent compiling Excel sheets. In the AutoCAD domain, my overarching internship project was to leverage the pyautocad library in creating automation scripts by analyzing company mill liner CAD files. These scripts helped to streamline the creation of new drawings by auto-generating generic layers, points, and arcs, significantly reducing file imports and simplifying the CAD workflow for design engineers.",
-		skills: ['Python', 'SQL Server', 'Docker & Docker Compose', 'Kubernetes', 'pyautocad', 'AutoCAD', 'smtplib', 'CAD Automation', 'SMTP', 'Email Automation']
 	}
 ]
 
