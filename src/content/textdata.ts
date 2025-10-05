@@ -46,24 +46,49 @@ const timelineData: TimeLineDtl[] = [
 
 const timelineDataSWE: TimeLineDtl[] = [
 	{
-		from: 'June 2021',
+		from: 'July 2024',
 		to: 'Present',
-		title: '.NET Software Developer',
+		title: 'Software Engineer II',
+		company: 'Teranet Inc',
+		details: "Backend Software Engineer on the maintenance of the Portable Housing and Healthy Smiles Provincial Benefit Programs with client, the Ontario Ministry of Finance (MOF). Lead developer on enhancing Interac payments to MOL bank accounts, by integrating helper class that writes to CosmosDB (Postgres) + auto-calculates allocation, with REST API payment routes in ASP.NET/C#, unit tested in Selenium, and allocated $2M+. Reworked legacy React class-based components/hooks in Collection subsystem to functional components and custom hooks, verified with 20+ Jest Unit test scripts resulting in approximately 25% removal of re-used hooks in components and reducing bundle size. I streamlined user authentication by implementing Entra SSO in ASP.NET REST API auth routes on Azure and integrating with AKS Cluster, reducing automated 2FA text volume by 35% and providing MOF staff with seamless 24-hour access. Lead developer in reworking over 50 client reports in the Collections subsystem, optimizing PostgreSQL queries- resulting in approximately 20% faster report generation by ensuring proper table joins using clustered indexes.",
+		skills: ['Java', 'Spring Boot', 'OCP', 'Kubernetes', 'PostgreSQL', 'Docker', 'AKS', 'Kafka', 'Redis', 'AMQ', 'Blob', 'Jenkins', 'APIM', 'ACR', 'JUnit', 'Rapid', 'ElasticSearch', 'Microservices', 'ELK', 'IaC', 'Terraform', 'Bicep', 'Project Management']
+	},
+	{
+		from: 'June 2021',
+		to: 'June 2024',
+		title: 'FullStack Software Developer',
 		company: 'FAST Enterprises LLC',
 		details: "Interim Dev Team Manager on the maintenance of the Portable Housing and Healthy Smiles Provincial Benefit Programs with client, the Ontario Ministry of Finance (MOF). Lead developer on enhancing Interac payments to MOL bank accounts, by integrating helper class that writes to CosmosDB (Postgres) + auto-calculates allocation, with REST API payment routes in ASP.NET/C#, unit tested in Selenium, and allocated $2M+. Reworked legacy React class-based components/hooks in Collection subsystem to functional components and custom hooks, verified with 20+ Jest Unit test scripts resulting in approximately 25% removal of re-used hooks in components and reducing bundle size. I streamlined user authentication by implementing Entra SSO in ASP.NET REST API auth routes on Azure and integrating with AKS Cluster, reducing automated 2FA text volume by 35% and providing MOF staff with seamless 24-hour access. Lead developer in reworking over 50 client reports in the Collections subsystem, optimizing PostgreSQL queries- resulting in approximately 20% faster report generation by ensuring proper table joins using clustered indexes.",
 		skills: ['C#', 'ASP.NET', 'Azure', 'React', 'PostgreSQL', 'Docker', 'AKS', 'Jest', 'VB', 'SSO', 'AGILE', 'MSTest', 'Selenium', 'RESTful API', 'Database Maintenance', 'Project Management']
 	},
 	{
+		from: 'Sep 2020',
+		to: 'May 2021',
+		title: 'Undergraduate Teaching Assistant',
+		company: "Queen's University",
+		// details: "Teaching Assistant for ELEC326 - Probability & Random Processes, ELEC374 - Digital Systems Engineering",
+		details: "Teaching Assistant for 3rd year Faculty of Electrical and Computer Engineering courses: ELEC326 - Probability & Random Processes and ELEC374 - Digital Systems Engineering. In ELEC326, I led weekly tutorials and office hours, walking through sample problems and explaining concepts that students struggled with. In ELEC374, I worked as a resource in the weekly Lab course portion, where students would design a RISC processor in Verilog or VHDL over the semester. I assisted students in translating class theory to machine code for CPU operations.",
+		skills: []
+	}
+	// ,{
+	// 	from: 'Apr',
+	// 	to: 'Sep 2020',
+	// 	title: 'Software Engineer Intern',
+	// 	company: 'Solutions Stores Inc.',
+	// 	details: "Contributed to a start-up digital health clinic app for family practice clinics in Ontario as part of an agile team. Led a significant internship project collaborating with UI/UX Designers and a Project Manager to organize Kanban boards, develop timelines in JIRA, and gather client requirements. Successfully deployed a registration portal for clinics on AWS, using React, SASS, Bootstrap and a Django/Postgres REST API, and integrated with EKS cluster on AWS to securely pass data to user-app Docker containers, cache results in Redis store as well as DynamoDB, and streamline sign-up flow. Developed and maintained routes on Python/Django, Go/Gin, Java Spring Boot and Ruby on Rails for other REST APIs and microservices across other products at Solutions' subsidiaries. Helped in migrating AWS EC2 instances, security rules & tasks to Fargate, reducing maintenance and monthly server costs by 15%.",
+	// 	skills: ['React', 'Django', 'Go', 'NodeJS', 'AWS', 'Kubernetes', 'EKS', 'AWS Lambda', 'Redis', 'DynamoDB', 'Ruby on Rails', 'Docker', 'Bootstrap', 'AGILE', 'Git', 'Jira & Bitbucket', 'Python', 'Javascript', 'HTML', 'SASS', 'Typescript', 'Cypress Unit Testing', 'Twilio', 'Serverless' ]
+	// }
+]
+
+const timelineDataQU: TimeLineDtl[] = [
+	{
 		from: 'Apr',
 		to: 'Sep 2020',
 		title: 'Software Engineer Intern',
 		company: 'Solutions Stores Inc.',
-		details: "Contributed to a start-up digital health clinic app for family practice clinics in Ontario as part of an agile team. Led a significant internship project collaborating with UI/UX Designers and a Project Manager to organize Kanban boards, develop timelines in JIRA, and gather client requirements. Successfully deployed a registration portal for clinics on AWS, using React, SASS, Bootstrap and a Django/Postgres REST API, and integrated with EKS cluster on AWS to securely pass data to user-app Docker containers, cache results in Redis store, and streamline sign-up flow. Developed and maintained routes on Python/Django, Go/Gin, Java Spring Boot and Ruby on Rails for other REST APIs and microservices across other products at Solutions' subsidiaries. Helped in migrating AWS EC2 instances, security rules & tasks to Fargate, reducing maintenance and monthly server costs by 15%.",
-		skills: ['React', 'Django', 'Go', 'NodeJS', 'AWS', 'Kubernetes', 'EKS', 'Redis', 'Ruby on Rails', 'Docker', 'Bootstrap', 'AGILE', 'Git', 'Jira & Bitbucket', 'Python', 'Javascript', 'HTML', 'SASS', 'Typescript', 'Cypress Unit Testing', 'Twilio', 'Serverless' ]
-	}
-]
-
-const timelineDataQU: TimeLineDtl[] = [
+		details: "Contributed to a start-up digital health clinic app for family practice clinics in Ontario as part of an agile team. Led a significant internship project collaborating with UI/UX Designers and a Project Manager to organize Kanban boards, develop timelines in JIRA, and gather client requirements. Successfully deployed a registration portal for clinics on AWS, using React, SASS, Bootstrap and a Django/Postgres REST API, and integrated with EKS cluster on AWS to securely pass data to user-app Docker containers, cache results in Redis store as well as DynamoDB, and streamline sign-up flow. Developed and maintained routes on Python/Django, Go/Gin, Java Spring Boot and Ruby on Rails for other REST APIs and microservices across other products at Solutions' subsidiaries. Helped in migrating AWS EC2 instances, security rules & tasks to Fargate, reducing maintenance and monthly server costs by 15%.",
+		skills: ['React', 'Django', 'Go', 'NodeJS', 'AWS', 'Kubernetes', 'EKS', 'AWS Lambda', 'Redis', 'DynamoDB', 'Ruby on Rails', 'Docker', 'Bootstrap', 'AGILE', 'Git', 'Jira & Bitbucket', 'Python', 'Javascript', 'HTML', 'SASS', 'Typescript', 'Cypress Unit Testing', 'Twilio', 'Serverless' ]
+	},
 	{
 		from: 'Apr',
 		to: 'Sep 2019',
@@ -80,14 +105,15 @@ const timelineDataQU: TimeLineDtl[] = [
 		details: "As Manager for a team of 4 students, I led the development of a React SPA website for a Kingston dental practice certification company by reviewing Git pull requests, delegating development issues, and leading meetings with our client to document their requirements. Simultaneously, I conducted weekly open-to-all seminars on current industry web development libraries and tools. My role involved providing technical guidance and facilitating discussions to enhance the team's skills and project outcomes, resulting in a successful website launch, with minimal maintenance required and a team confident in their web-dev skills!",
 		skills: ['React', 'CSS', 'HTML', 'Git', 'Docker', 'Firebase', 'MongoDB', 'Database Design', 'Project Management']
 	},
-	{
-		from: 'Sep 2020',
-		to: 'May 2021',
-		title: 'Undergraduate Teaching Assistant',
-		company: "Queen's University",
-		details: "Teaching Assistant for ELEC326 - Probability & Random Processes and ELEC374 - Digital Systems Engineering. In ELEC326, I led weekly tutorials and office hours, walking through sample problems and explaining concepts that students struggled with. In ELEC374, I worked as a resource in the weekly Lab course portion, where students would design a RISC processor in Verilog or VHDL over the semester. I assisted students in translating class theory to machine code for CPU operations.",
-		skills: []
-	}
+	// {
+	// 	from: 'Sep 2020',
+	// 	to: 'May 2021',
+	// 	title: 'Undergraduate Teaching Assistant',
+	// 	company: "Queen's University",
+	// 	// details: "Teaching Assistant for ELEC326 - Probability & Random Processes, ELEC374 - Digital Systems Engineering",
+	// 	details: "Teaching Assistant for 3rd year Faculty of Electrical and Computer Engineering courses: ELEC326 - Probability & Random Processes and ELEC374 - Digital Systems Engineering. In ELEC326, I led weekly tutorials and office hours, walking through sample problems and explaining concepts that students struggled with. In ELEC374, I worked as a resource in the weekly Lab course portion, where students would design a RISC processor in Verilog or VHDL over the semester. I assisted students in translating class theory to machine code for CPU operations.",
+	// 	skills: []
+	// }
 ]
 
 const aboutData: AboutDtl[] = [

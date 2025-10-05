@@ -17,12 +17,12 @@ const WorkTime = () => {
 							<WorkTimeItem timeItem={item} key={index} />
 						))}
 					</div> */}
-					<div className='w-full md:w-7/12 flex-wrap'>
+					<div className='w-full md:w-7/12 flex-wrap border-l border-stone-200'>
 						{timelineDataSWE.map((item: TimeLineDtl, index: number) => (
 							<WorkTimeItem timeItem={item} key={index} />
 						))}
 					</div>
-					<div className='w-full md:w-7/12 flex-wrap'>
+					<div className='w-full md:w-7/12 flex-wrap border-l border-stone-200'>
 						{timelineDataQU.map((item: TimeLineDtl, index: number) => (
 							<WorkTimeItem timeItem={item} key={index} />
 						))}
