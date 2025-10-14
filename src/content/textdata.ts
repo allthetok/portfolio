@@ -51,7 +51,7 @@ const timelineDataSWE: TimeLineDtl[] = [
 		title: 'Software Engineer II',
 		company: 'Teranet Inc',
 		details: "Backend Software Engineer on the maintenance of the Portable Housing and Healthy Smiles Provincial Benefit Programs with client, the Ontario Ministry of Finance (MOF). Lead developer on enhancing Interac payments to MOL bank accounts, by integrating helper class that writes to CosmosDB (Postgres) + auto-calculates allocation, with REST API payment routes in ASP.NET/C#, unit tested in Selenium, and allocated $2M+. Reworked legacy React class-based components/hooks in Collection subsystem to functional components and custom hooks, verified with 20+ Jest Unit test scripts resulting in approximately 25% removal of re-used hooks in components and reducing bundle size. I streamlined user authentication by implementing Entra SSO in ASP.NET REST API auth routes on Azure and integrating with AKS Cluster, reducing automated 2FA text volume by 35% and providing MOF staff with seamless 24-hour access. Lead developer in reworking over 50 client reports in the Collections subsystem, optimizing PostgreSQL queries- resulting in approximately 20% faster report generation by ensuring proper table joins using clustered indexes.",
-		skills: ['Java', 'Spring Boot', 'OCP', 'Kubernetes', 'PostgreSQL', 'Docker', 'AKS', 'Kafka', 'Redis', 'AMQ', 'Blob', 'Jenkins', 'APIM', 'ACR', 'JUnit', 'Rapid', 'ElasticSearch', 'Microservices', 'ELK', 'IaC', 'Terraform', 'Bicep', 'Project Management']
+		skills: ['Java', 'Spring Boot', 'OCP', 'Kubernetes', 'PostgreSQL', 'Docker', 'AKS', 'Kafka', 'Redis', 'AMQ', 'Blob', 'Jenkins', 'APIM', 'ACR', 'Okta', 'JUnit', 'Rapid', 'ElasticSearch', 'Microservices', 'ELK', 'IaC', 'Terraform', 'Bicep', 'Project Management']
 	},
 	{
 		from: 'June 2021',
@@ -119,15 +119,15 @@ const timelineDataQU: TimeLineDtl[] = [
 const aboutData: AboutDtl[] = [
 	{
 		heading: 'The Start',
-		details: "Back in 2016, with all of my attention on Calculus, I decided to try my hand at creating a Graphing Calculator app—my first foray into coding and creating a large-scale app for the world to use. Eight years and a degree in Computer Engineering from Queen's University later, I’ve had the privilege of building software for businesses ranging from startups and small businesses to the Ministry of Finance, providing thousands of government staff across Ontario with automated software processes.",
+		details: "Back in 2016, with all of my attention on Calculus, I decided to try my hand at creating a Graphing Calculator app, my first foray into coding and creating a large-scale app for the world to use. Eight years and a degree in Computer Engineering from Queen's University later, I’ve had the privilege of working around the stack, be it Angular and React/Next based front-ends to microservice APIs ranging from RESTful, GraphQL and SOAP-based for startups and Toronto-based businesses to the Ministry of Finance, and now in the Law, Real Estate and Financial sectors, providing thousands of users across North America with distributed scaleable applications.",
 	},
 	{
 		heading: 'Current Day',
-		details: "As I've gained experience in the field, I’ve also refined my ability to lead projects with large-scale clientele: bridging the gap from business user to developer by asking questions to understand my client's requirements, while also documenting them in clear, technical terms on the developer end. I love writing code that hits the sweet spot where human needs and engineering meet—software that scales, is easy to follow along for other engineers, and provides the most utility to end users.",
+		details: "As I've gained experience in the field, I’ve also refined my ability to lead projects, primarily in the back-end, with large-scale clientele: bridging the gap from product manager to developer by asking questions to understand my client's requirements, while also documenting them in clear, technical terms on the developer end. I love writing code that hits the sweet spot where human needs and engineering meet, software that scales, is easy to follow along for other engineers, and provides the most intuituive utility to end users.",
 	},
 	{
 		heading: 'Projects',
-		details: "In my free time, you can find me building projects that provide utility to me and any others who share my interests of gaming, fashion, and long-form media content, while using these as learning experiences to tinker around with new libraries, methodologies, and broaden my arsenal of development skills."
+		details: "In my free time, you can find me building projects that provide utility to me and any others who share my interests of gaming, fashion, and long-form media content, while using these as learning experiences to tinker around with new libraries and frameworks, to broaden my arsenal of software engineering skills."
 	},
 	// {
 	// 	heading: 'Free Time',
@@ -135,7 +135,7 @@ const aboutData: AboutDtl[] = [
 	// }
 ]
 
-const skillsData: string[] = ['React', 'NextJS', 'NodeJS', 'ExpressJS', 'Fastify', 'Angular', 'Typescript', 'Python', 'Django', 'Flask', 'TensorFlow', 'Java', 'Spring', 'C#', '.NET', 'SQL', 'Postgres', 'MongoDB', 'HTML', 'CSS', 'Tailwind', 'Sass', 'Jest', 'Docker', 'Docker Compose', 'Nginx', 'AWS', 'Azure', 'Kubernetes', 'Ubuntu', 'Git Bash', 'Version Control', 'OAuth', 'HTTPS', 'RESTful APIs', 'CI/CD', 'Test Automation', 'AGILE', 'Object Oriented Programming', 'DS&A']
+const skillsData: string[] = ['React', 'NextJS', 'NodeJS', 'ExpressJS', 'NestJS', 'Fastify', 'Angular', 'Typescript', 'Python', 'Django', 'Flask', 'TensorFlow', 'Java', 'Spring Boot', 'C#', '.NET', 'SQL', 'Postgres', 'MongoDB', 'Elastic', 'Logstash', 'Kibana', 'Blob', 'Terraform', 'Bicep', 'HTML', 'CSS', 'Tailwind', 'Jest', 'Docker', 'Kubernetes', 'OCP', 'Nginx', 'Tomcat', 'AWS', 'Azure', 'APIM', 'Ubuntu', 'Git', 'Version Control', 'Jenkins', 'OAuth', 'Okta', 'Redis', 'HTTPS', 'REST', 'Microservices', 'Distributed Systems', 'CI/CD', 'Rapid', 'JMeter', 'AGILE', 'IaC', 'Kafka', 'JUnit', 'Object Oriented Programming', 'DSA']
 
 const projects: ProjectDtl[] = [
 	{
