@@ -135,7 +135,7 @@ const aboutData: AboutDtl[] = [
 	// }
 ]
 
-const skillsData: string[] = ['React', 'NextJS', 'NodeJS', 'ExpressJS', 'NestJS', 'Fastify', 'Angular', 'Typescript', 'Python', 'Django', 'Flask', 'TensorFlow', 'Java', 'Spring Boot', 'C#', '.NET', 'SQL', 'Postgres', 'MongoDB', 'Elastic', 'Logstash', 'Kibana', 'Blob', 'Terraform', 'Bicep', 'HTML', 'CSS', 'Tailwind', 'Jest', 'Docker', 'Kubernetes', 'OCP', 'Nginx', 'Tomcat', 'AWS', 'Azure', 'APIM', 'Ubuntu', 'Git', 'Version Control', 'Jenkins', 'OAuth', 'Okta', 'Redis', 'HTTPS', 'REST', 'Microservices', 'Distributed Systems', 'CI/CD', 'Rapid', 'JMeter', 'AGILE', 'IaC', 'Kafka', 'JUnit', 'Object Oriented Programming', 'DSA']
+const skillsData: string[] = ['Java', 'Spring Boot', 'NodeJS', 'ExpressJS', 'NestJS', 'Fastify', 'React', 'NextJS', 'Angular', 'Typescript', 'Python', 'Django', 'Flask', 'TensorFlow', 'C#', '.NET', 'SQL', 'Postgres', 'MongoDB', 'Elastic', 'Logstash', 'Kibana', 'Blob', 'Terraform', 'Bicep', 'HTML', 'CSS', 'Tailwind', 'Jest', 'Docker', 'Kubernetes', 'OCP', 'Nginx', 'Tomcat', 'AWS', 'Azure', 'APIM', 'Ubuntu', 'Git', 'Version Control', 'Jenkins', 'OAuth', 'Okta', 'Redis', 'HTTPS', 'REST', 'Microservices', 'Distributed Systems', 'CI/CD', 'Rapid', 'JMeter', 'AGILE', 'IaC', 'Kafka', 'JUnit', 'Object Oriented Programming', 'DSA']
 
 const projects: ProjectDtl[] = [
 	{
