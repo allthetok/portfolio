@@ -50,34 +50,25 @@ const timelineDataSWE: TimeLineDtl[] = [
 		to: 'Present',
 		title: 'Software Engineer II',
 		company: 'Teranet Inc',
-		details: "Backend Software Engineer on the maintenance of the Portable Housing and Healthy Smiles Provincial Benefit Programs with client, the Ontario Ministry of Finance (MOF). Lead developer on enhancing Interac payments to MOL bank accounts, by integrating helper class that writes to CosmosDB (Postgres) + auto-calculates allocation, with REST API payment routes in ASP.NET/C#, unit tested in Selenium, and allocated $2M+. Reworked legacy React class-based components/hooks in Collection subsystem to functional components and custom hooks, verified with 20+ Jest Unit test scripts resulting in approximately 25% removal of re-used hooks in components and reducing bundle size. I streamlined user authentication by implementing Entra SSO in ASP.NET REST API auth routes on Azure and integrating with AKS Cluster, reducing automated 2FA text volume by 35% and providing MOF staff with seamless 24-hour access. Lead developer in reworking over 50 client reports in the Collections subsystem, optimizing PostgreSQL queries- resulting in approximately 20% faster report generation by ensuring proper table joins using clustered indexes.",
-		skills: ['Java', 'Spring Boot', 'OCP', 'Kubernetes', 'PostgreSQL', 'Docker', 'AKS', 'Kafka', 'Redis', 'AMQ', 'Blob', 'Jenkins', 'APIM', 'ACR', 'Okta', 'JUnit', 'Rapid', 'ElasticSearch', 'Microservices', 'ELK', 'IaC', 'Terraform', 'Bicep', 'Project Management']
+		details: "Backend SWE in an Agile team that develops 12 middleware-based distributed microservice APIs for 10+ product teams. Lead developer in rewrite of monolith JBoss SOAP service into 12 distributed REST API microservices spanning 36 endpoints with Spring Boot and Apache Camel, expanded JUnit test suite and wrote OCP templates, improving to 150K calls per day. Developed a Java Spring distributed request audit service with asynchronous processing and request caching through AMQ messages and Redis, created ETL data pipelines, Hibernate entities to use Azure CosmosDB Postgres, 12 APIs adopted td. Successfully exposed 12 REST APIs to Azure APIM, configured Redis, load balancer and wrote policy fragments for Okta auth, Terraform templates and publisher/extractor CI/CD pipelines to automate deployments, onboarded 30+ external dev teams. Developed a Document Blob microservice using Java Spring Boot, Azure Blob Storage and ELK stack, performing source data collection and transformation through Elastic Beats and Logstash, refined Elasticsearch templates for optimal query indexing. Migrated container registry/dependencies from Artifactory to ACR, updating Openshift Kubernetes templates, Jenkins CI/CD release and promotion pipelines and migration batch jobs for secrets from HashiVault to CyberArk, 25% improved build time. Modernized 12 applications with JDK, Spring, and base image upgrades, and increased JUnit test suite code coverage to 90%. Developed a Java Spring Boot pub-sub distributed microservice using Apache Kafka streams, enabling client teams to consume topic feeds for push notifications, 2FA and automated emails, providing high availability and reliability with 70K calls per day.",
+		skills: ['Java', 'Spring Boot', 'Apache Camel', 'Azure', 'OCP', 'Kubernetes', 'Docker', 'PostgreSQL', 'AKS', 'Kafka', 'Redis', 'AMQ', 'Elasticsearch', 'Logstash', 'Kibana', 'CosmosDB', 'Jenkins', 'APIM', 'ACR', 'Okta', 'JUnit', 'Hibernate', 'Microservices', 'ELK', 'IaC', 'Terraform', 'Ansible']
 	},
 	{
 		from: 'June 2021',
 		to: 'June 2024',
-		title: 'FullStack Software Developer',
+		title: 'Fullstack Software Developer',
 		company: 'FAST Enterprises LLC',
-		details: "Interim Dev Team Manager on the maintenance of the Portable Housing and Healthy Smiles Provincial Benefit Programs with client, the Ontario Ministry of Finance (MOF). Lead developer on enhancing Interac payments to MOL bank accounts, by integrating helper class that writes to CosmosDB (Postgres) + auto-calculates allocation, with REST API payment routes in ASP.NET/C#, unit tested in Selenium, and allocated $2M+. Reworked legacy React class-based components/hooks in Collection subsystem to functional components and custom hooks, verified with 20+ Jest Unit test scripts resulting in approximately 25% removal of re-used hooks in components and reducing bundle size. I streamlined user authentication by implementing Entra SSO in ASP.NET REST API auth routes on Azure and integrating with AKS Cluster, reducing automated 2FA text volume by 35% and providing MOF staff with seamless 24-hour access. Lead developer in reworking over 50 client reports in the Collections subsystem, optimizing PostgreSQL queries- resulting in approximately 20% faster report generation by ensuring proper table joins using clustered indexes.",
-		skills: ['C#', 'ASP.NET', 'Azure', 'React', 'PostgreSQL', 'Docker', 'AKS', 'Jest', 'VB', 'SSO', 'AGILE', 'MSTest', 'Selenium', 'RESTful API', 'Database Maintenance', 'Project Management']
+		details: "Fullstack dev in an Agile scrum team that feature developed a state-level tax revenue web app used by 50+ jurisdictions. Reworked React class-based components, hooks, Apollo Client GraphQL queries on NextJS in Collection system to functional components, reusable custom hooks & new Typescript interfaces, with 20 Jest unit tests, resulted in 25% smaller bundle size. Lead developer in onboarding AMEX payment SDK, integrating helper class & ORM entities with Node/Nestjs REST API payment routes, allocates funds & writes to Azure MongoDB with Spark, unit tested in Selenium, $2M+ funds allocated ytd. Led reworking of React graphing components, SASS classes and 50 SSRS Postgres queries to use clustered indices for joins & updated group statements, with new Kafka streams for async-write & cached in Elasticsearch, for 20% improved query speed. Implemented Entra SSO auth in Azure-hosted .NET Core C# REST API auth-handler routes, wrote Terraform config files, updated Docker files and managed AKS Kubernetes cluster through Ansible, for 24H access and 35% reduced 2FA volume. Standardized ESLint rules for TypeScript releases, updated Webpack plugins & enabled Jenkins build tests to run in parallel.",
+		skills: ['.NET Core C#', 'NodeJS', 'NestJS', 'NextJS', 'Typescript', 'Azure', 'React', 'Apollo Client', 'GraphQL', 'PostgreSQL', 'Kubernetes', 'Docker', 'Ansible', 'CosmosDB', 'Kafka', 'Redis', 'Elasticsearch', 'AKS', 'Jest', 'Prisma', 'Webpack', 'SSO', 'MSTest', 'Selenium', 'REST API']
 	},
 	{
 		from: 'Sep 2020',
 		to: 'May 2021',
 		title: 'Undergraduate Teaching Assistant',
 		company: "Queen's University",
-		// details: "Teaching Assistant for ELEC326 - Probability & Random Processes, ELEC374 - Digital Systems Engineering",
 		details: "Teaching Assistant for 3rd year Faculty of Electrical and Computer Engineering courses: ELEC326 - Probability & Random Processes and ELEC374 - Digital Systems Engineering. In ELEC326, I led weekly tutorials and office hours, walking through sample problems and explaining concepts that students struggled with. In ELEC374, I worked as a resource in the weekly Lab course portion, where students would design a RISC processor in Verilog or VHDL over the semester. I assisted students in translating class theory to machine code for CPU operations.",
 		skills: []
 	}
-	// ,{
-	// 	from: 'Apr',
-	// 	to: 'Sep 2020',
-	// 	title: 'Software Engineer Intern',
-	// 	company: 'Solutions Stores Inc.',
-	// 	details: "Contributed to a start-up digital health clinic app for family practice clinics in Ontario as part of an agile team. Led a significant internship project collaborating with UI/UX Designers and a Project Manager to organize Kanban boards, develop timelines in JIRA, and gather client requirements. Successfully deployed a registration portal for clinics on AWS, using React, SASS, Bootstrap and a Django/Postgres REST API, and integrated with EKS cluster on AWS to securely pass data to user-app Docker containers, cache results in Redis store as well as DynamoDB, and streamline sign-up flow. Developed and maintained routes on Python/Django, Go/Gin, Java Spring Boot and Ruby on Rails for other REST APIs and microservices across other products at Solutions' subsidiaries. Helped in migrating AWS EC2 instances, security rules & tasks to Fargate, reducing maintenance and monthly server costs by 15%.",
-	// 	skills: ['React', 'Django', 'Go', 'NodeJS', 'AWS', 'Kubernetes', 'EKS', 'AWS Lambda', 'Redis', 'DynamoDB', 'Ruby on Rails', 'Docker', 'Bootstrap', 'AGILE', 'Git', 'Jira & Bitbucket', 'Python', 'Javascript', 'HTML', 'SASS', 'Typescript', 'Cypress Unit Testing', 'Twilio', 'Serverless' ]
-	// }
 ]
 
 const timelineDataQU: TimeLineDtl[] = [
@@ -86,7 +77,7 @@ const timelineDataQU: TimeLineDtl[] = [
 		to: 'Sep 2020',
 		title: 'Software Engineer Intern',
 		company: 'Solutions Stores Inc.',
-		details: "Contributed to a start-up digital health clinic app for family practice clinics in Ontario as part of an agile team. Led a significant internship project collaborating with UI/UX Designers and a Project Manager to organize Kanban boards, develop timelines in JIRA, and gather client requirements. Successfully deployed a registration portal for clinics on AWS, using React, SASS, Bootstrap and a Django/Postgres REST API, and integrated with EKS cluster on AWS to securely pass data to user-app Docker containers, cache results in Redis store as well as DynamoDB, and streamline sign-up flow. Developed and maintained routes on Python/Django, Go/Gin, Java Spring Boot and Ruby on Rails for other REST APIs and microservices across other products at Solutions' subsidiaries. Helped in migrating AWS EC2 instances, security rules & tasks to Fargate, reducing maintenance and monthly server costs by 15%.",
+		details: " Developed MDnius, a SaaS digital clinic app for family practice clinics, in Agile team on JIRA with BitBucket Version Ctrl. Deployed a clinic signup portal on AWS with React, Nextjs, Typescript, SASS, a Dockerized Node/Nestjs REST API on an ArgoCD & CircleCI pipeline, AWS RDS, wrote Terraform EKS cluster config, streamed Kafka events & cached in Redis. Migrated AWS ECR container EC2 instances, security rules & tasks, to Lambda functions, reduced monthly costs by 15%.",
 		skills: ['React', 'Django', 'Go', 'NodeJS', 'AWS', 'Kubernetes', 'EKS', 'AWS Lambda', 'Redis', 'DynamoDB', 'Ruby on Rails', 'Docker', 'Bootstrap', 'AGILE', 'Git', 'Jira & Bitbucket', 'Python', 'Javascript', 'HTML', 'SASS', 'Typescript', 'Cypress Unit Testing', 'Twilio', 'Serverless' ]
 	},
 	{
@@ -94,8 +85,8 @@ const timelineDataQU: TimeLineDtl[] = [
 		to: 'Sep 2019',
 		title: 'Software Developer Intern',
 		company: 'Polymet Solutions Corp',
-		details: "Over my internship, I contributed significantly to streamlining operations in both accounting and AutoCAD automation processes. In the accounting realm, I deployed Docker containers as AWS EC2 instances on Kubernetes cluster with EKS, and developed new API routes in a Python/Django REST API with SQL Server to generate and automate company balance reports for the accounting team, resulting in 30% time savings spent on Excel compilation. In the AutoCAD domain, my internship project was helping in building a SPA Angular web app and a Java/Spring Boot REST API with Maven. The app enables engineers to upload CAD files and exports them to GC BigQuery with a Data Transfer Service. I also wrote Google Cloud Functions to read from BigQuery and integrate with containerized pyautocad plugin scripting application to analyze files and auto-generate frequent layers and arcs in new CAD files, resulting in 15% design workflow timesaving.",
-		skills: ['Angular', 'Django', 'Python', 'Java', 'Spring Boot', 'Maven', 'SQL Server', 'Google Cloud', 'Kubernetes', 'BigQuery', 'Docker', 'pyautocad', 'AutoCAD', 'smtplib', 'Cloud Functions', 'CAD Automation', 'SMTP', 'Email Automation']
+		details: "Created an Angular/Python & Spark webtool, and Airflow scheduling AWS Redshift data transfer when uploading CAD file. Wrote Apache Spark Python scripts & AWS Step functions to read from Redshift and integrate with Dockerized pyautocad plugin application to analyze files and generate frequent layers/arcs in new CAD files, for a 15% CAD workflow timesaving. Built a sheet automation scripter in Golang/Gin, deployed on AWS ECR through EC2 instances with EKS cluster, to save reports in S3 Bucket and automated report generation for accounting team, resulting in 30% Excel compilation timesaving.",
+		skills: ['Angular', 'Python', 'Django', 'Golang', 'AWS', 'SQL Server', 'Google Cloud', 'Kubernetes', 'BigQuery', 'Docker', 'pyautocad', 'AutoCAD', 'smtplib', 'Cloud Functions', 'CAD Automation', 'SMTP', 'Email Automation']
 	},
 	{
 		from: 'Sep 2019',
@@ -103,7 +94,7 @@ const timelineDataQU: TimeLineDtl[] = [
 		title: 'Executive Web Developer',
 		company: "Queen's Web Dev Team",
 		details: "As Manager for a team of 4 students, I led the development of a React SPA website for a Kingston dental practice certification company by reviewing Git pull requests, delegating development issues, and leading meetings with our client to document their requirements. Simultaneously, I conducted weekly open-to-all seminars on current industry web development libraries and tools. My role involved providing technical guidance and facilitating discussions to enhance the team's skills and project outcomes, resulting in a successful website launch, with minimal maintenance required and a team confident in their web-dev skills!",
-		skills: ['React', 'CSS', 'HTML', 'Git', 'Docker', 'Firebase', 'MongoDB', 'Database Design', 'Project Management']
+		skills: ['React', 'NextJS', 'Tailwind', 'CloudFlare', 'CSS', 'HTML', 'Git', 'Docker', 'Firebase', 'MongoDB', 'Database Design', 'Project Management']
 	},
 	// {
 	// 	from: 'Sep 2020',
@@ -119,7 +110,7 @@ const timelineDataQU: TimeLineDtl[] = [
 const aboutData: AboutDtl[] = [
 	{
 		heading: 'The Start',
-		details: "Back in 2016, with all of my attention on Calculus, I decided to try my hand at creating a Graphing Calculator app, my first foray into coding and creating a large-scale app for the world to use. Eight years and a degree in Computer Engineering from Queen's University later, I’ve had the privilege of working around the stack, be it Angular and React/Next based front-ends to microservice APIs ranging from RESTful, GraphQL and SOAP-based for startups and Toronto-based businesses to the Ministry of Finance, and now in the Law, Real Estate and Financial sectors, providing thousands of users across North America with distributed scaleable applications.",
+		details: "Back in 2016, with all of my attention on Calculus, I decided to try my hand at creating a Graphing Calculator app, my first foray into coding and creating a large-scale app for the world to use. Eight years and a degree in Computer Engineering from Queen's University later, I’ve had the privilege of working around the stack, be it Angular and React/Next based front-ends to microservice APIs ranging from RESTful, GraphQL and SOAP-based for startups and Toronto-based businesses to the Ministry of Finance, and now in the Law, Real Estate and Financial sectors, providing thousands of users across North America with distributed scalable applications.",
 	},
 	{
 		heading: 'Current Day',
@@ -135,7 +126,7 @@ const aboutData: AboutDtl[] = [
 	// }
 ]
 
-const skillsData: string[] = ['Java', 'Spring Boot', 'NodeJS', 'ExpressJS', 'NestJS', 'Fastify', 'React', 'NextJS', 'Angular', 'Typescript', 'Python', 'Django', 'Flask', 'TensorFlow', 'C#', '.NET', 'SQL', 'Postgres', 'MongoDB', 'Elastic', 'Logstash', 'Kibana', 'Blob', 'Terraform', 'Bicep', 'HTML', 'CSS', 'Tailwind', 'Jest', 'Docker', 'Kubernetes', 'OCP', 'Nginx', 'Tomcat', 'AWS', 'Azure', 'APIM', 'Ubuntu', 'Git', 'Version Control', 'Jenkins', 'OAuth', 'Okta', 'Redis', 'HTTPS', 'REST', 'Microservices', 'Distributed Systems', 'CI/CD', 'Rapid', 'JMeter', 'AGILE', 'IaC', 'Kafka', 'JUnit', 'Object Oriented Programming', 'DSA']
+const skillsData: string[] = ['Java', 'Spring Boot', 'Apache Camel', 'NodeJS', 'ExpressJS', 'NestJS', 'Fastify', 'Typescript', 'Python', 'Django', 'Flask', 'Golang', 'Gin', 'TensorFlow', 'C#', '.NET Core', 'ASP.NET', 'React', 'NextJS', 'Angular', 'Redux', 'Apollo GraphQL', 'HTML', 'CSS/SASS', 'Jest', 'Cypress', 'Tailwind', 'SQL', 'Postgres', 'MongoDB', 'CosmosDB', 'Azure', 'AWS', 'GCP', 'OCP', 'OpenShift', 'Kubernetes', 'Docker', 'APIM', 'Terraform', 'Ansible', 'Bicep', 'Kafka', 'AMQ', 'RabbitMQ', 'Redis', 'Jenkins', 'Elasticsearch', 'Logstash', 'Kibana', 'APIM', 'Okta', 'Maven', 'JUnit', 'Hibernate', 'JMeter', 'Blob', 'Nginx', 'Tomcat', 'Ubuntu', 'Git', 'Version Control', 'OAuth', 'HTTPS', 'REST', 'GraphQL', 'Microservices', 'Distributed Systems', 'CI/CD', 'Agile', 'IaC', 'Unit Test', 'Code Review', 'Containers', 'DevOps', 'Object Oriented Programming', 'DSA']
 
 const projects: ProjectDtl[] = [
 	{

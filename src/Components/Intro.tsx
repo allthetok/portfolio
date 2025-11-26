@@ -34,7 +34,7 @@ const Intro = () => {
 							Contact me here
 						<BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
 					</Link>
-					<a className='group bg-zinc-200 text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-zinc-700 hover:text-slate-100 active:scale-105 transition' href='/resumeallentok.pdf' download>
+					<a className='group bg-zinc-200 text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-zinc-700 hover:text-slate-100 active:scale-105 transition' href='/AT_Resume.pdf' download>
 						Download Resume
 						<HiDownload className='opacity-60 group-hover:translate-y-1 transition' />
 					</a>

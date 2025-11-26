@@ -30,7 +30,7 @@ const About = () => {
 								</div>
 							))}
 						</div>
-						<div className='flex flex-col justify-center items-center mt-[-5rem] w-[460px]'>
+						<div className='flex flex-col justify-center items-center mt-[-5rem] w-[660px]'>
 							<ul className='mt-2 flex flex-wrap'>
 								{skillsData.map((skill: string, index: number) => (
 									<li className='mr-1.5 mt-2' key={index}>
