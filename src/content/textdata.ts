@@ -56,7 +56,7 @@ const timelineDataSWE: TimeLineDtl[] = [
 	{
 		from: 'June 2021',
 		to: 'June 2024',
-		title: 'Fullstack Software Developer',
+		title: 'Fullstack Software Engineer',
 		company: 'FAST Enterprises LLC',
 		details: "Fullstack dev in an Agile scrum team that feature developed a state-level tax revenue web app used by 50+ jurisdictions. Reworked React class-based components, hooks, Apollo Client GraphQL queries on NextJS in Collection system to functional components, reusable custom hooks & new Typescript interfaces, with 20 Jest unit tests, resulted in 25% smaller bundle size. Lead developer in onboarding AMEX payment SDK, integrating helper class & ORM entities with Node/Nestjs REST API payment routes, allocates funds & writes to Azure MongoDB with Spark, unit tested in Selenium, $2M+ funds allocated ytd. Led reworking of React graphing components, SASS classes and 50 SSRS Postgres queries to use clustered indices for joins & updated group statements, with new Kafka streams for async-write & cached in Elasticsearch, for 20% improved query speed. Implemented Entra SSO auth in Azure-hosted .NET Core C# REST API auth-handler routes, wrote Terraform config files, updated Docker files and managed AKS Kubernetes cluster through Ansible, for 24H access and 35% reduced 2FA volume. Standardized ESLint rules for TypeScript releases, updated Webpack plugins & enabled Jenkins build tests to run in parallel.",
 		skills: ['.NET Core C#', 'NodeJS', 'NestJS', 'NextJS', 'Typescript', 'Azure', 'React', 'Apollo Client', 'GraphQL', 'PostgreSQL', 'Kubernetes', 'Docker', 'Ansible', 'CosmosDB', 'Kafka', 'Redis', 'Elasticsearch', 'AKS', 'Jest', 'Prisma', 'Webpack', 'SSO', 'MSTest', 'Selenium', 'REST API']
