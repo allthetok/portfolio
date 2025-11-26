@@ -182,7 +182,7 @@ const links = [
 ]
 
 const aboutImages = [
-	'about/resized/1.JPG', 'about/resized/8.PNG', 'about/resized/11.JPG', 'about/resized/12.JPG', 'about/resized/13.JPG'
+	'about/1.jpg', 'about/8.png', 'about/11.jpg', 'about/12.jpg', 'about/13.jpg'
 ]
 
 export { timelineData, timelineDataSWE, timelineDataQU, aboutData, skillsData, projects, links, aboutImages }
