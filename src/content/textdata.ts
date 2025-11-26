@@ -46,7 +46,7 @@ const timelineData: TimeLineDtl[] = [
 
 const timelineDataSWE: TimeLineDtl[] = [
 	{
-		from: 'July 2024',
+		from: 'June 2024',
 		to: 'Present',
 		title: 'Software Engineer II',
 		company: 'Teranet Inc',
@@ -191,7 +191,7 @@ const links = [
 ]
 
 const aboutImages = [
-	'about/1.jpg', 'about/10.jpg', 'about/5.JPG', 'about/6.png', 'about/8.png'
+	'about/resized/1.JPG', 'about/resized/8.PNG', 'about/resized/11.JPG', 'about/resized/12.JPG', 'about/resized/13.JPG'
 ]
 
 export { timelineData, timelineDataSWE, timelineDataQU, aboutData, skillsData, projects, links, aboutImages }
